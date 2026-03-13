@@ -1,0 +1,90 @@
+[
+  {
+    "pillarId": "talent-research",
+    "pillarLabel": "Talent & Research",
+    "publicScore": 8.9,
+    "expertScore": 9.1,
+    "delta": 0.2,
+    "status": "aligned",
+    "responseCount": 10832,
+    "notes": "Strong alignment — 10,832 open-text responses across 4 questions. Public widely discussed talent retention, compute access, and graduate funding.",
+    "keyTension": null
+  },
+  {
+    "pillarId": "data-infrastructure",
+    "pillarLabel": "Data & Infrastructure",
+    "publicScore": 8.7,
+    "expertScore": 8.8,
+    "delta": 0.1,
+    "status": "aligned",
+    "responseCount": 5840,
+    "notes": "Near-perfect alignment. Both public and experts prioritized sovereign compute capacity and open data commons.",
+    "keyTension": null
+  },
+  {
+    "pillarId": "adoption-commercialization",
+    "pillarLabel": "Adoption & Commercialization",
+    "publicScore": 9.1,
+    "expertScore": 8.5,
+    "delta": -0.6,
+    "status": "aligned",
+    "responseCount": 23303,
+    "notes": "Highest response volume of any pillar — 23,303 responses across 10 questions. Public engagement was intense on SME support and IP retention.",
+    "keyTension": "Public actually rated commercialization high (9.1) — contrary to narrative. The tension is about pace vs. safety guardrails, not opposition to commercialization itself."
+  },
+  {
+    "pillarId": "regulation-governance",
+    "pillarLabel": "Regulation & Governance",
+    "publicScore": 8.5,
+    "expertScore": 8.3,
+    "delta": -0.2,
+    "status": "aligned",
+    "responseCount": 7643,
+    "notes": "Regulation co-occurs heavily with trust questions. Real data shows public and experts are largely aligned — both want AIDA-style risk-tiered frameworks.",
+    "keyTension": "Divergence is on enforcement teeth, not the need for regulation. Public wants stronger penalties; industry experts favor compliance-first approaches."
+  },
+  {
+    "pillarId": "international-collaboration",
+    "pillarLabel": "International Collaboration",
+    "publicScore": 7.6,
+    "expertScore": 7.9,
+    "delta": 0.3,
+    "status": "aligned",
+    "responseCount": 2162,
+    "notes": "Lowest response volume. Public discusses it in context of competitiveness ('learn from the US/EU') more than multilateral governance.",
+    "keyTension": "Experts focus on G7/OECD governance frameworks; public focuses on avoiding regulatory arbitrage with the EU AI Act."
+  },
+  {
+    "pillarId": "public-trust-safety",
+    "pillarLabel": "Public Trust & Safety",
+    "publicScore": 9.1,
+    "expertScore": 8.7,
+    "delta": -0.4,
+    "status": "aligned",
+    "responseCount": 7643,
+    "notes": "Trust and regulation questions overlap heavily. 82.8% of respondents with text mentioned trust-related keywords — the highest of any pillar.",
+    "keyTension": "Public wants reactive redress mechanisms; Task Force experts emphasize proactive auditing and transparency registries."
+  },
+  {
+    "pillarId": "inclusive-ai",
+    "pillarLabel": "Inclusive AI",
+    "publicScore": 6.2,
+    "expertScore": 7.5,
+    "delta": 1.3,
+    "status": "tension",
+    "responseCount": 6926,
+    "notes": "Real data inverts the assumed narrative: experts actually score inclusion HIGHER than the public keyword analysis suggests (25% mention rate vs. 82% for trust).",
+    "keyTension": "Inclusion terms (Indigenous, equity, accessibility) appear in only 25% of responses — far below trust (83%) and adoption (82%). The public engagement gap on inclusion is the real story."
+  },
+  {
+    "pillarId": "sovereignty-security",
+    "pillarLabel": "Sovereignty & Security",
+    "publicScore": 8.2,
+    "expertScore": 8.1,
+    "delta": -0.1,
+    "status": "aligned",
+    "responseCount": 6101,
+    "notes": "Near-perfect alignment. Cybersecurity and foreign acquisition concerns appear consistently across age groups and sectors.",
+    "keyTension": null
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "_dataNote": "Real data from open.canada.ca XLSX (ai-strategy-raw-data-2025-1.xlsx). Submitted=3,162; all rows incl. in-progress=11,383.",
+  "totalRespondents": 11383,
+  "submittedRespondents": 3162,
+  "totalResponses": 68702,
+  "submittedResponses": 60645,
+  "totalQuestions": 26,
+  "taskForceExperts": 28,
+  "taskForceReports": 32,
+  "respondentTypes": [
+    { "label": "Individuals", "value": 84.7, "count": 2678, "basis": "submitted" },
+    { "label": "Organizations", "value": 15.3, "count": 482, "basis": "submitted" }
+  ],
+  "respondentTypesAll": [
+    { "label": "Individuals", "value": 82.9, "count": 9312, "basis": "all rows" },
+    { "label": "Organizations", "value": 17.1, "count": 1910, "basis": "all rows" }
+  ],
+  "respondentRoles": [
+    { "label": "Interested Canadian", "count": 5880 },
+    { "label": "Business Representative", "count": 2153 },
+    { "label": "Academic / Researcher", "count": 1527 },
+    { "label": "Government / Regulator", "count": 422 },
+    { "label": "Industry Association", "count": 360 },
+    { "label": "Other", "count": 663 },
+    { "label": "Privacy Advocate", "count": 229 },
+    { "label": "International Partner", "count": 37 }
+  ],
+  "sectors": [
+    { "label": "IT/tech/cyber", "value": 20.7, "count": 164, "color": "#6366f1" },
+    { "label": "Professional & Scientific", "value": 14.0, "count": 111, "color": "#0ea5e9" },
+    { "label": "Arts, Entertainment & Rec", "value": 13.9, "count": 110, "color": "#f59e0b" },
+    { "label": "Info & Cultural Industries", "value": 10.2, "count": 81, "color": "#10b981" },
+    { "label": "Government", "value": 8.2, "count": 65, "color": "#8b5cf6" },
+    { "label": "SME", "value": 7.3, "count": 58, "color": "#ec4899" },
+    { "label": "Academia", "value": 7.2, "count": 57, "color": "#14b8a6" },
+    { "label": "Health care", "value": 5.9, "count": 47, "color": "#ef4444" },
+    { "label": "Other sectors", "value": 13.6, "count": 101, "color": "#94a3b8" }
+  ],
+  "geography": [
+    { "province": "ON", "fullName": "Ontario", "value": 38.9, "count": 1207 },
+    { "province": "BC", "fullName": "British Columbia", "value": 20.7, "count": 642 },
+    { "province": "AB", "fullName": "Alberta", "value": 7.9, "count": 244 },
+    { "province": "QC", "fullName": "Quebec", "value": 7.6, "count": 236 },
+    { "province": "NS", "fullName": "Nova Scotia", "value": 3.8, "count": 118 },
+    { "province": "MB", "fullName": "Manitoba", "value": 1.9, "count": 58 },
+    { "province": "SK", "fullName": "Saskatchewan", "value": 1.4, "count": 44 },
+    { "province": "NB", "fullName": "New Brunswick", "value": 1.4, "count": 44 },
+    { "province": "NL", "fullName": "Newfoundland & Labrador", "value": 0.9, "count": 28 },
+    { "province": "Other", "fullName": "Other/Not applicable", "value": 15.5, "count": 481 }
+  ],
+  "ageGroups": [
+    { "label": "35 to 44", "value": 29.7, "count": 926 },
+    { "label": "45 to 54", "value": 21.3, "count": 663 },
+    { "label": "25 to 34", "value": 21.3, "count": 662 },
+    { "label": "55 to 64", "value": 11.4, "count": 355 },
+    { "label": "Prefer not to say", "value": 7.7, "count": 241 },
+    { "label": "65 or older", "value": 4.9, "count": 153 },
+    { "label": "18 to 24", "value": 3.6, "count": 111 }
+  ],
+  "gender": [
+    { "label": "Man", "value": 46.2, "count": 1437, "color": "#6366f1" },
+    { "label": "Woman", "value": 34.5, "count": 1072, "color": "#ec4899" },
+    { "label": "Prefer not to say", "value": 11.9, "count": 369, "color": "#94a3b8" },
+    { "label": "Non-binary", "value": 6.4, "count": 198, "color": "#10b981" },
+    { "label": "Other", "value": 1.1, "count": 34, "color": "#f59e0b" }
+  ],
+  "pillarResponseCounts": [
+    { "pillarId": "talent-research", "count": 10832 },
+    { "pillarId": "adoption-commercialization", "count": 23303 },
+    { "pillarId": "public-trust-safety", "count": 7643 },
+    { "pillarId": "inclusive-ai", "count": 6926 },
+    { "pillarId": "data-infrastructure", "count": 5840 },
+    { "pillarId": "sovereignty-security", "count": 6101 }
+  ]
+}
