@@ -21,7 +21,7 @@ export function OverviewPage() {
       {/* Hero */}
       <div className="bg-gradient-to-br from-indigo-950/60 to-slate-900/40 border border-indigo-500/20 rounded-2xl p-6 text-white">
         <div className="flex items-start gap-3 mb-4">
-          <span className="text-2xl">🍁</span>
+          <img src="/govai.png" alt="GovAI logo" className="w-8 h-8 rounded object-contain" />
           <div>
             <h1 className="text-xl font-bold leading-tight">Canada AI Task Force</h1>
             <p className="text-slate-300 text-sm mt-0.5">National AI Strategy Consultation — Data Dashboard</p>

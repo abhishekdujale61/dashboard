@@ -17,9 +17,7 @@ export function Header() {
       <div className="max-w-screen-xl mx-auto h-full px-4 flex items-center justify-between gap-4">
         {/* Logo */}
         <div className="flex items-center gap-3 shrink-0">
-          <div className="flex items-center justify-center w-8 h-8 rounded bg-red-600">
-            <span className="text-white text-lg leading-none">🍁</span>
-          </div>
+          <img src="/govai.png" alt="GovAI logo" className="w-8 h-8 rounded object-contain" />
           <div className="leading-tight">
             <div className="text-sm font-bold text-white">GovAI.fm</div>
             <div className="text-xs text-slate-400 hidden sm:block">Canada AI Task Force Dashboard</div>
