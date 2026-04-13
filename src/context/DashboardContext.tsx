@@ -3,8 +3,6 @@ import { RECOMMENDATIONS } from '../data';
 import type { Recommendation } from '../types';
 
 interface DashboardContextType {
-  includeExpertReports: boolean;
-  setIncludeExpertReports: (v: boolean) => void;
   activePillarId: string | null;
   setActivePillarId: (id: string | null) => void;
   filteredRecommendations: Recommendation[];
@@ -13,26 +11,16 @@ interface DashboardContextType {
 const DashboardContext = createContext<DashboardContextType | null>(null);
 
 export function DashboardProvider({ children }: { children: ReactNode }) {
-  const [includeExpertReports, setIncludeExpertReports] = useState(true);
   const [activePillarId, setActivePillarId] = useState<string | null>(null);
 
   const filteredRecommendations = useMemo(() => {
-    return RECOMMENDATIONS.filter((rec) => {
-      if (!includeExpertReports && rec.expertOnly) return false;
-      if (activePillarId && rec.pillarId !== activePillarId) return false;
-      return true;
-    });
-  }, [includeExpertReports, activePillarId]);
+    if (!activePillarId) return RECOMMENDATIONS;
+    return RECOMMENDATIONS.filter((rec) => rec.pillarId === activePillarId);
+  }, [activePillarId]);
 
   return (
     <DashboardContext.Provider
-      value={{
-        includeExpertReports,
-        setIncludeExpertReports,
-        activePillarId,
-        setActivePillarId,
-        filteredRecommendations,
-      }}
+      value={{ activePillarId, setActivePillarId, filteredRecommendations }}
     >
       {children}
     </DashboardContext.Provider>

@@ -15,7 +15,7 @@ export function Sidebar() {
     } else {
       setActivePillarId(pillarId);
       if (!isRecommendations) {
-        navigate('/recommendations');
+        navigate(`/pillars/${pillarId}`);
       }
     }
   }

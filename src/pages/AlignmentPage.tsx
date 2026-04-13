@@ -2,11 +2,8 @@ import { ALIGNMENT_MAP } from '../data';
 import { SectionHeader } from '../components/ui/SectionHeader';
 import { AlignmentScatterPlot } from '../components/charts/AlignmentScatterPlot';
 import { TensionBadge } from '../components/ui/TensionBadge';
-import { useDashboard } from '../context/DashboardContext';
 
 export function AlignmentPage() {
-  const { includeExpertReports } = useDashboard();
-
   const sorted = [...ALIGNMENT_MAP].sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta));
 
   return (
@@ -17,12 +14,6 @@ export function AlignmentPage() {
           Where the 28 Task Force experts and 11,300+ public respondents agree — and where they diverge
         </p>
       </div>
-
-      {!includeExpertReports && (
-        <div className="bg-amber-500/5 border border-amber-500/20 rounded-lg p-3 text-sm text-amber-400">
-          Expert Reports are currently hidden. Toggle "Expert Reports" in the header to see expert scores.
-        </div>
-      )}
 
       {/* Legend */}
       <div className="flex flex-wrap gap-3">
@@ -66,7 +57,7 @@ export function AlignmentPage() {
               <tr className="text-xs text-slate-600 uppercase tracking-wider border-b border-white/[0.07]">
                 <th className="px-5 py-3 text-left">Pillar</th>
                 <th className="px-4 py-3 text-center">Public</th>
-                {includeExpertReports && <th className="px-4 py-3 text-center">Expert</th>}
+                <th className="px-4 py-3 text-center">Expert</th>
                 <th className="px-4 py-3 text-center">Gap</th>
                 <th className="px-4 py-3 text-center">Status</th>
                 <th className="px-4 py-3 text-center hidden sm:table-cell">Responses</th>
@@ -81,12 +72,10 @@ export function AlignmentPage() {
                     <span className="font-bold text-indigo-400">{entry.publicScore}</span>
                     <span className="text-slate-500 text-xs">/10</span>
                   </td>
-                  {includeExpertReports && (
-                    <td className="px-4 py-3 text-center">
-                      <span className="font-bold text-slate-300">{entry.expertScore}</span>
-                      <span className="text-slate-500 text-xs">/10</span>
-                    </td>
-                  )}
+                  <td className="px-4 py-3 text-center">
+                    <span className="font-bold text-slate-300">{entry.expertScore}</span>
+                    <span className="text-slate-500 text-xs">/10</span>
+                  </td>
                   <td className="px-4 py-3 text-center">
                     <span
                       className={`font-bold text-sm ${

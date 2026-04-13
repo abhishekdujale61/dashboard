@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import type { Recommendation } from '../../types';
 import { PillarBadge } from '../ui/PillarBadge';
 import { PILLARS } from '../../data';
@@ -16,19 +17,33 @@ export function RecommendationCard({ rec }: RecommendationCardProps) {
   const pillar = PILLARS.find((p) => p.id === rec.pillarId);
   const pillarColor = pillar?.color ?? '#6366f1';
   const priority = priorityConfig[rec.priority];
+  const topicHref = rec.topicId
+    ? `/pillars/${rec.pillarId}/topics/${rec.topicId}`
+    : undefined;
 
-  return (
-    <div className="bg-[#0f1117] rounded-xl border border-white/[0.07] hover:border-white/[0.12] p-4 transition-all">
+  const cardClasses =
+    'bg-[#0f1117] rounded-xl border border-white/[0.07] hover:border-white/[0.12] p-4 transition-all' +
+    (topicHref ? ' hover:-translate-y-0.5 cursor-pointer block' : '');
+
+  const inner = (
+    <>
       <div className="flex items-start justify-between gap-2 mb-3">
         <div>
           <p className="text-sm font-semibold text-slate-100">{rec.member}</p>
           <p className="text-xs text-slate-500">{rec.memberRole}</p>
         </div>
-        {rec.expertOnly && (
-          <span className="shrink-0 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-            🔬 Expert only
-          </span>
-        )}
+        <div className="flex items-center gap-1.5 shrink-0">
+          {rec.expertOnly && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+              🔬 Expert only
+            </span>
+          )}
+          {topicHref && (
+            <span className="text-[10px] text-slate-600 border border-white/[0.07] rounded px-1.5 py-0.5">
+              View voices →
+            </span>
+          )}
+        </div>
       </div>
 
       <p className="text-sm text-slate-300 leading-relaxed mb-3">{rec.text}</p>
@@ -55,6 +70,14 @@ export function RecommendationCard({ rec }: RecommendationCardProps) {
           }}
         />
       </div>
-    </div>
+    </>
+  );
+
+  return topicHref ? (
+    <Link to={topicHref} className={cardClasses}>
+      {inner}
+    </Link>
+  ) : (
+    <div className={cardClasses}>{inner}</div>
   );
 }

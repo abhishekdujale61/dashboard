@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useDashboard } from '../context/DashboardContext';
-import { PILLARS, RECOMMENDATIONS } from '../data';
+import { PILLARS } from '../data';
 import { RecommendationCard } from '../components/cards/RecommendationCard';
 import { PillarBadge } from '../components/ui/PillarBadge';
 
 export function RecommendationsPage() {
-  const { filteredRecommendations, includeExpertReports, activePillarId, setActivePillarId } = useDashboard();
+  const { filteredRecommendations, activePillarId, setActivePillarId } = useDashboard();
   const [priorityFilter, setPriorityFilter] = useState<string>('all');
   const [search, setSearch] = useState('');
 
@@ -18,8 +18,6 @@ export function RecommendationsPage() {
   });
 
   const totalVisible = filteredRecommendations.length;
-  const totalWithoutPillar = RECOMMENDATIONS.filter(r => includeExpertReports || !r.expertOnly).length;
-  const hiddenCount = RECOMMENDATIONS.length - totalWithoutPillar;
 
   return (
     <div className="space-y-6">
@@ -89,9 +87,6 @@ export function RecommendationsPage() {
         <p className="text-slate-500">
           Showing <strong className="text-slate-200">{displayed.length}</strong> of <strong className="text-slate-200">{totalVisible}</strong>
           {activePillarId && <span className="text-indigo-400 ml-1">(pillar filtered)</span>}
-          {!includeExpertReports && hiddenCount > 0 && (
-            <span className="text-slate-500 ml-1">· {hiddenCount} expert-only hidden</span>
-          )}
         </p>
         {(activePillarId || priorityFilter !== 'all' || search) && (
           <button

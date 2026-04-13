@@ -1,0 +1,394 @@
+{
+  "graduate-funding-compute-access": [
+    {
+      "id": "pub-001",
+      "text": "We need substantial investment in graduate AI fellowships — the current NSERC grants simply don't compete with what US universities offer. Canada is training world-class researchers and then watching them leave for better-funded labs.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6
+    },
+    {
+      "id": "pub-002",
+      "text": "Access to compute infrastructure is the single biggest bottleneck for Canadian AI research. We have the talent but not the hardware. A national AI compute cluster — like DRAC but scaled up — would be transformative.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "QC",
+      "score": 9
+    },
+    {
+      "id": "pub-003",
+      "text": "Industry partnerships for graduate students are great but shouldn't come at the cost of academic independence. Funding tied to corporate IP agreements undermines the open research culture that made Canada's AI ecosystem valuable.",
+      "sentiment": "concerned",
+      "salience": "secondary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 4
+    },
+    {
+      "id": "pub-004",
+      "text": "Increase NSERC Alliance grants and create a dedicated AI PhD stipend stream. $50,000/year stipends would make Canadian grad programs genuinely competitive with MIT and Stanford.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 3
+    },
+    {
+      "id": "pub-005",
+      "text": "The government should fund cloud compute credits for academic researchers, similar to what AWS and Google offer through research programs. This is a relatively cheap intervention with high leverage.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6
+    }
+  ],
+  "global-talent-attraction": [
+    {
+      "id": "pub-010",
+      "text": "The Global Talent Stream visa pathway is promising but still too slow for AI. We've lost candidates who accepted US offers while waiting 8+ weeks for Canadian approvals. Processing needs to be under 2 weeks.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9
+    },
+    {
+      "id": "pub-011",
+      "text": "Canada's immigration system is genuinely competitive for attracting international AI talent — especially from countries with political instability. We should be marketing this more aggressively.",
+      "sentiment": "supportive",
+      "salience": "secondary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 2
+    },
+    {
+      "id": "pub-012",
+      "text": "Retaining international PhD graduates is more efficient than attracting senior researchers. They're already here, trained at Canadian institutions, and integrated into Canadian research networks. Create a direct pathway from PhD to permanent residency.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6
+    }
+  ],
+  "sme-ai-adoption-support": [
+    {
+      "id": "pub-020",
+      "text": "Small businesses want to adopt AI but have no idea where to start. We need a government-funded AI adoption advisory service — like a 'digital extension officer' program, similar to what agriculture has.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "MB",
+      "score": 6
+    },
+    {
+      "id": "pub-021",
+      "text": "The biggest barrier isn't technology or cost — it's trust. SME owners don't understand what AI actually does and are afraid of liability if something goes wrong. Clear liability frameworks would unlock massive adoption.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9
+    },
+    {
+      "id": "pub-022",
+      "text": "We need sector-specific AI adoption playbooks — not generic guides. What works for a manufacturer in Windsor is completely different from what works for a law firm in Calgary.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 6
+    },
+    {
+      "id": "pub-023",
+      "text": "SR&ED credits should be expanded to cover AI implementation costs, not just pure research. Right now there's a gap between 'research' and 'adoption' that leaves SMEs without support for the practical work.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6
+    },
+    {
+      "id": "pub-024",
+      "text": "I'm a small manufacturer in Kitchener. AI could transform our quality control processes but I have no way to evaluate vendors, understand contracts, or know if the data I share with these companies is safe.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3
+    }
+  ],
+  "ip-retention-canadian-ownership": [
+    {
+      "id": "pub-030",
+      "text": "Only 32% of Canadian-founded AI companies remain in Canada. This is a national emergency. We're subsidizing the education and early research that creates these companies, and then the US harvests them. We need conditions on federal AI funding that require companies to maintain Canadian operations.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9
+    },
+    {
+      "id": "pub-031",
+      "text": "IP generated with public research funding should have conditions attached — not ownership, but right of first access for Canadian companies and government. This is how the US handles DARPA-funded research.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6
+    },
+    {
+      "id": "pub-032",
+      "text": "We should be more welcoming of foreign acquisition if it means Canadian research gets funded. The alternative is that it doesn't happen at all. We don't have the domestic capital to compete.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6
+    }
+  ],
+  "harm-redress-complaint-mechanisms": [
+    {
+      "id": "pub-040",
+      "text": "When an AI system makes a decision that harms me — a denied loan, a flagged job application — I need a clear, accessible way to challenge that decision. Right now there's nothing. No regulator, no ombudsperson, no process.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3
+    },
+    {
+      "id": "pub-041",
+      "text": "The EU AI Act's right-to-explanation provisions are a good model. Canadians should have the right to know when a significant decision was made by or with AI, and to request a human review.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6
+    },
+    {
+      "id": "pub-042",
+      "text": "We should establish an AI Ombudsperson with real teeth — not just an advisory body. They should have the power to investigate, order remediation, and publicly name violators.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6
+    },
+    {
+      "id": "pub-043",
+      "text": "Class action frameworks need to be updated for AI harms. When thousands of people are harmed by the same algorithmic system, they need a practical way to seek collective redress.",
+      "sentiment": "supportive",
+      "salience": "secondary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 4
+    }
+  ],
+  "indigenous-data-sovereignty": [
+    {
+      "id": "pub-050",
+      "text": "First Nations data belongs to First Nations. Full stop. Any AI system trained on Indigenous languages, knowledge, or health data without explicit community consent is a form of data colonialism.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 3
+    },
+    {
+      "id": "pub-051",
+      "text": "OCAP principles (Ownership, Control, Access, Possession) should be encoded into any federal AI legislation. This isn't a niche concern — it's a fundamental rights issue.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 6
+    },
+    {
+      "id": "pub-052",
+      "text": "The government needs to fund Indigenous-led AI development, not just consult Indigenous communities about AI someone else built. Co-creation, not consultation.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6
+    }
+  ],
+  "sovereign-compute-infrastructure": [
+    {
+      "id": "pub-060",
+      "text": "Canada cannot be strategically sovereign in AI if our models are trained and run on US-owned cloud infrastructure. We need national compute the way we needed national energy infrastructure — and the government should treat it with the same urgency.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6
+    },
+    {
+      "id": "pub-061",
+      "text": "The AI Sovereign Compute Fund announced in Budget 2024 is a start but insufficient. $2B over 5 years sounds large but won't build globally competitive infrastructure. We need 10x.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9
+    },
+    {
+      "id": "pub-062",
+      "text": "Public compute should be run through a not-for-profit or Crown corporation model, with access governed by a merit-based allocation system. Prevent capture by large incumbents.",
+      "sentiment": "supportive",
+      "salience": "secondary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 4
+    }
+  ],
+  "transparent-ai-auditing": [
+    {
+      "id": "pub-070",
+      "text": "High-risk AI systems — those used in hiring, lending, criminal justice, health — must be audited before deployment, not just after harm occurs. Third-party auditing with real accreditation standards.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6
+    },
+    {
+      "id": "pub-071",
+      "text": "A public AI registry — where you can look up what AI systems government and major institutions are using and what audits they've passed — would dramatically increase accountability.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6
+    },
+    {
+      "id": "pub-072",
+      "text": "Auditing standards should be developed with technical experts, not just by lawyers and bureaucrats. Regulatory capture is a real risk here — the people being audited shouldn't be writing the audit standards.",
+      "sentiment": "concerned",
+      "salience": "secondary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 2
+    }
+  ],
+  "risk-tiered-regulatory-framework": [
+    {
+      "id": "pub-080",
+      "text": "Regulation should be proportional to risk. An AI that recommends a Netflix show needs no oversight. An AI that decides bail conditions needs extensive oversight. This sounds obvious but our current laws don't reflect it.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6
+    },
+    {
+      "id": "pub-081",
+      "text": "AIDA is a good foundation but needs teeth. Right now the penalties are too low to deter bad actors and the timelines for compliance are too generous. The EU moved faster.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "QC",
+      "score": 9
+    },
+    {
+      "id": "pub-082",
+      "text": "We need regulatory certainty more than we need perfect regulation. The current uncertainty is worse for innovation than a clear-but-imperfect framework would be.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "AB",
+      "score": 6
+    }
+  ],
+  "workforce-reskilling-transition": [
+    {
+      "id": "pub-090",
+      "text": "The EI and retraining system was not designed for AI-driven displacement. Workers displaced by automation need income support during retraining — not 45-week EI that runs out before a 2-year college program finishes.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6
+    },
+    {
+      "id": "pub-091",
+      "text": "Community colleges are the right delivery mechanism for AI literacy — not universities. They're more accessible, more affordable, and better connected to local labour markets.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 3
+    },
+    {
+      "id": "pub-092",
+      "text": "Employer-led reskilling programs need government co-investment. The Upskilling for Industry Initiative is a model — expand it with a specific AI track.",
+      "sentiment": "supportive",
+      "salience": "secondary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "AB",
+      "score": 4
+    }
+  ],
+  "critical-infrastructure-protection": [
+    {
+      "id": "pub-100",
+      "text": "AI systems embedded in power grids, financial markets, and healthcare are critical infrastructure. We need the same security standards applied to these AI systems as we apply to the infrastructure itself.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6
+    },
+    {
+      "id": "pub-101",
+      "text": "Canada is behind on AI security doctrine. Our adversaries — state and non-state — are already using AI offensively. We need a Canadian Centre for AI Security with actual operational capability.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 3
+    }
+  ]
+}

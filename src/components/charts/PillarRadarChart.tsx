@@ -9,7 +9,6 @@ import {
   Tooltip,
 } from 'recharts';
 import { ALIGNMENT_MAP } from '../../data';
-import { useDashboard } from '../../context/DashboardContext';
 
 const SHORT_LABELS: Record<string, string> = {
   'Talent & Research': 'Talent',
@@ -23,8 +22,6 @@ const SHORT_LABELS: Record<string, string> = {
 };
 
 export function PillarRadarChart() {
-  const { includeExpertReports } = useDashboard();
-
   const data = ALIGNMENT_MAP.map((entry) => ({
     subject: SHORT_LABELS[entry.pillarLabel] || entry.pillarLabel,
     Public: entry.publicScore,
@@ -53,17 +50,15 @@ export function PillarRadarChart() {
           fillOpacity={0.15}
           strokeWidth={2}
         />
-        {includeExpertReports && (
-          <Radar
-            name="Expert Priority"
-            dataKey="Expert"
-            stroke="#ef4444"
-            fill="#ef4444"
-            fillOpacity={0.1}
-            strokeWidth={2}
-            strokeDasharray="4 2"
-          />
-        )}
+        <Radar
+          name="Expert Priority"
+          dataKey="Expert"
+          stroke="#ef4444"
+          fill="#ef4444"
+          fillOpacity={0.1}
+          strokeWidth={2}
+          strokeDasharray="4 2"
+        />
         <Tooltip
           formatter={(value) => [`${value}/10`, '']}
           contentStyle={{ background: '#0f1117', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.10)', fontSize: '13px', color: '#f1f5f9' }}

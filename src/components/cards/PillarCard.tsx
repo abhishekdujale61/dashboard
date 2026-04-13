@@ -1,15 +1,12 @@
 import { Link } from 'react-router-dom';
 import type { Pillar } from '../../types';
 import { TensionBadge } from '../ui/TensionBadge';
-import { useDashboard } from '../../context/DashboardContext';
 
 interface PillarCardProps {
   pillar: Pillar;
 }
 
 export function PillarCard({ pillar }: PillarCardProps) {
-  const { includeExpertReports } = useDashboard();
-
   return (
     <Link
       to={`/pillars/${pillar.slug}`}
@@ -37,14 +34,12 @@ export function PillarCard({ pillar }: PillarCardProps) {
               </p>
               <p className="text-xs text-slate-400">Public</p>
             </div>
-            {includeExpertReports && (
-              <div className="text-center">
-                <p className="text-lg font-bold text-slate-400">
-                  {pillar.expertPriorityScore}
-                </p>
-                <p className="text-xs text-slate-400">Expert</p>
-              </div>
-            )}
+            <div className="text-center">
+              <p className="text-lg font-bold text-slate-400">
+                {pillar.expertPriorityScore}
+              </p>
+              <p className="text-xs text-slate-400">Expert</p>
+            </div>
           </div>
           <span className="text-xs font-medium text-slate-400 bg-white/[0.06] px-2 py-1 rounded-full">
             {pillar.totalRecommendations} recs

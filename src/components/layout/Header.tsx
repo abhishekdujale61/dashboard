@@ -1,17 +1,13 @@
 import { NavLink } from 'react-router-dom';
-import { Toggle } from '../ui/Toggle';
-import { useDashboard } from '../../context/DashboardContext';
 
 const navLinks = [
-  { to: '/', label: 'Overview' },
-  { to: '/demographics', label: 'Demographics' },
-  { to: '/alignment', label: 'Expert vs Public' },
-  { to: '/recommendations', label: 'Recommendations' },
+  { to: '/',                label: 'Overview'         },
+  { to: '/demographics',    label: 'Demographics'     },
+  { to: '/alignment',       label: 'Expert vs Public' },
+  { to: '/recommendations', label: 'Recommendations'  },
 ];
 
 export function Header() {
-  const { includeExpertReports, setIncludeExpertReports } = useDashboard();
-
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#08090f]/95 backdrop-blur-sm border-b border-white/[0.07] h-16">
       <div className="max-w-screen-xl mx-auto h-full px-4 flex items-center justify-between gap-4">
@@ -44,13 +40,11 @@ export function Header() {
           ))}
         </nav>
 
-        {/* Expert toggle */}
-        <div className="flex items-center gap-2 shrink-0">
-          <Toggle
-            checked={includeExpertReports}
-            onChange={setIncludeExpertReports}
-            label="Expert Reports"
-          />
+        {/* Source badge */}
+        <div className="shrink-0 hidden sm:block">
+          <span className="text-[10px] text-slate-600 border border-white/[0.06] rounded px-2 py-1">
+            LLM-derived signals · Open Gov Licence
+          </span>
         </div>
       </div>
     </header>

@@ -1,0 +1,312 @@
+{
+  "graduate-funding-compute-access": [
+    {
+      "id": "exp-001",
+      "header": "NSERC funding gaps disadvantage Canadian AI PhDs",
+      "body": "Current NSERC AI graduate scholarships average $25,000–$35,000/year — insufficient against US university packages of $45,000–$65,000 plus benefits. The result is a systematic talent outflow at the graduate level that compounds over time as alumni build US networks. A dedicated AI PhD Excellence Award at $55,000/year for 500 students annually would cost $27.5M — modest relative to the strategic return.",
+      "expertName": "Arvind Gupta",
+      "affiliation": "University of British Columbia",
+      "reportTitle": "Research and Talent",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-002",
+      "header": "National AI Compute Strategy needed",
+      "body": "Canada's AI research community relies on the Digital Research Alliance of Canada (DRAC) compute clusters, but current allocation is insufficient for frontier model training. A National AI Compute Infrastructure program should provision 500+ petaflops of dedicated research capacity, with a merit-based allocation process transparent to the community. Partnership with hyperscalers for academic discount programs can bridge the gap during infrastructure build-out.",
+      "expertName": "Gail Murphy",
+      "affiliation": "University of British Columbia",
+      "reportTitle": "Research and Talent",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-003",
+      "header": "Industry-academia compute partnerships",
+      "body": "Major Canadian AI companies should be required, as a condition of receiving federal AI support, to provide compute access credits to academic researchers. A minimum of 10% of training compute used internally should be made available to university researchers via an open allocation process. This creates reciprocal value: companies gain research collaboration; academics gain compute.",
+      "expertName": "Michael Bowling",
+      "affiliation": "University of Alberta",
+      "reportTitle": "Research and Talent",
+      "sentiment": "supportive",
+      "salience": "secondary",
+      "depth": "reasoned",
+      "score": 4
+    }
+  ],
+  "global-talent-attraction": [
+    {
+      "id": "exp-010",
+      "header": "Global Talent Stream processing times remain a competitive liability",
+      "body": "Despite improvements, the Global Talent Stream visa route still takes 6–10 weeks for complex AI roles. The US O-1A visa, while difficult to obtain, processes in 2–3 weeks for premium processing. Canada should target a 10-business-day SLA for AI specialist applications, with dedicated officers trained on AI role assessment. The bottleneck is IRCC capacity, not policy design.",
+      "expertName": "Diane Gutiw",
+      "affiliation": "",
+      "reportTitle": "Research and Talent",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-011",
+      "header": "International PhD conversion to permanent residency",
+      "body": "Canada trains thousands of international PhD students in AI-adjacent fields annually. Fewer than 40% convert to permanent residency. A dedicated pathway — AI Graduate Retention Pathway — would allow PhD graduates from STEM disciplines at Canadian universities to obtain permanent residency within 6 months of graduation, without points-based competition through Express Entry.",
+      "expertName": "Michael Serbinis",
+      "affiliation": "",
+      "reportTitle": "Research and Talent",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    }
+  ],
+  "sme-ai-adoption-support": [
+    {
+      "id": "exp-020",
+      "header": "AI adoption advisory service for SMEs",
+      "body": "The CDAP (Canada Digital Adoption Program) has demonstrated that subsidized advisory services unlock SME digital adoption at scale. An AI-specific advisory stream — 'AI Ready Advisor' — should be embedded in RDAs and delivered through accredited advisors with sector specializations. Target: 5,000 SME AI adoption plans completed in year 1.",
+      "expertName": "Cari Covent",
+      "affiliation": "",
+      "reportTitle": "Adoption",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-021",
+      "header": "Sector-specific AI adoption playbooks",
+      "body": "Generic AI adoption guidance fails SMEs. Sector-specific playbooks — developed with industry associations for manufacturing, agri-food, professional services, and construction — dramatically reduce adoption friction. The UK's Made Smarter programme demonstrates 38% higher adoption rates when sector-contextualised guidance is available. Canada should commission 10 sector playbooks through NRC IRAP.",
+      "expertName": "Olivier Blais",
+      "affiliation": "Moov AI",
+      "reportTitle": "Adoption",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-022",
+      "header": "SR&ED expansion to cover AI implementation",
+      "body": "The current SR&ED definition of 'experimental development' often excludes AI implementation work that is technically straightforward but involves genuine uncertainty about business outcomes. A dedicated AI Adoption Tax Credit — covering 25% of eligible AI integration costs up to $500,000 — would be more effective than reforming SR&ED eligibility criteria, which creates audit uncertainty.",
+      "expertName": "Adam Keating",
+      "affiliation": "",
+      "reportTitle": "Commercialization",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    }
+  ],
+  "ip-retention-canadian-ownership": [
+    {
+      "id": "exp-030",
+      "header": "AI company retention: scale of the problem",
+      "body": "Between 2016 and 2024, Canadian-founded AI company retention dropped from 74.9% to 32.4%. This 42-point decline represents approximately 280 companies that were founded in Canada and are now headquartered or primarily operating in the United States. The causes are compound: access to capital, customer proximity, regulatory environment, and talent concentration all favor US relocation.",
+      "expertName": "Ben Bergen",
+      "affiliation": "Council of Canadian Innovators",
+      "reportTitle": "Scaling",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-031",
+      "header": "IP sovereignty conditions on federal AI funding",
+      "body": "Federal investment in AI companies — through BDC, EDC, SDTC, and NRC IRAP — should carry IP conditions: companies must maintain their primary AI development operations in Canada for 5 years, with clawback provisions if they relocate within that period. This is precedented in defence contracting and should be normalized for strategically significant AI investments.",
+      "expertName": "Patrick Pichette",
+      "affiliation": "iNovia Capital",
+      "reportTitle": "Scaling",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    }
+  ],
+  "harm-redress-complaint-mechanisms": [
+    {
+      "id": "exp-040",
+      "header": "AI Ombudsperson with investigative powers",
+      "body": "Canada needs an AI Ombudsperson with three powers: (1) the ability to receive and investigate individual complaints about AI decisions; (2) power to request documentation from deployers of high-risk AI; and (3) ability to recommend remediation to relevant ministers. This complements AIDA's compliance framework — the Ombudsperson handles individual cases, AIDA handles systemic violations.",
+      "expertName": "Taylor Owen",
+      "affiliation": "McGill University",
+      "reportTitle": "Safety and Trust",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    },
+    {
+      "id": "exp-041",
+      "header": "Right to explanation in consequential AI decisions",
+      "body": "Any AI system that makes or materially informs a consequential decision — employment, lending, insurance, housing, benefits — must provide, on request, a plain-language explanation of the factors that influenced the outcome. This right should be codified in AIDA and enforced by the OPC in partnership with the proposed AI Ombudsperson.",
+      "expertName": "Doyin Adeyemi",
+      "affiliation": "",
+      "reportTitle": "Safety and Trust",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    }
+  ],
+  "indigenous-data-sovereignty": [
+    {
+      "id": "exp-050",
+      "header": "OCAP principles as legislative baseline",
+      "body": "The First Nations principles of OCAP (Ownership, Control, Access, Possession) must be encoded into Canada's AI legislative framework. Any AI system trained on, or making decisions about, data pertaining to First Nations communities requires free, prior, and informed consent from the relevant governing authority. This is not a consultation requirement — it is a rights obligation under UNDRIP.",
+      "expertName": "Alex LaPlante",
+      "affiliation": "",
+      "reportTitle": "Education and Skills",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-051",
+      "header": "Indigenous-led AI research funding stream",
+      "body": "A dedicated NSERC-SSHRC partnership stream for Indigenous-led AI research — with community-controlled governance, flexible IP terms, and oral/non-text knowledge inclusion — should be established. Current research funding mechanisms systematically exclude Indigenous knowledge systems by privileging written documentation and peer-reviewed validation.",
+      "expertName": "Natiea Vinson",
+      "affiliation": "",
+      "reportTitle": "Education and Skills",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    }
+  ],
+  "sovereign-compute-infrastructure": [
+    {
+      "id": "exp-060",
+      "header": "Scale of sovereign compute investment required",
+      "body": "Training frontier AI models requires 10,000+ A100-equivalent GPUs running for months. Canada currently has no domestic facility at this scale. The $2B AI Sovereign Compute commitment in Budget 2024 is directionally correct but approximately 5x underfunded relative to the scale needed. A $10B, 10-year National AI Infrastructure Fund — modeled on Canada's broadband infrastructure investments — is appropriate given the strategic stakes.",
+      "expertName": "Garth Gibson",
+      "affiliation": "",
+      "reportTitle": "Infrastructure",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-061",
+      "header": "Crown corporation model for public compute",
+      "body": "Sovereign compute should be administered through a new Crown corporation — AI Infrastructure Canada — with a mandate to: provide subsidized access to academic researchers, offer commercial access at cost+10% to Canadian SMEs, and maintain strategic reserves for government AI workloads. The Crown model prevents capture by large incumbents that would occur under a voucher or subsidy approach.",
+      "expertName": "Ian Rae",
+      "affiliation": "Google Cloud Canada",
+      "reportTitle": "Infrastructure",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    },
+    {
+      "id": "exp-062",
+      "header": "Energy requirements for AI compute",
+      "body": "A 10,000 GPU cluster consumes approximately 10–15 MW continuously. At Canadian average grid prices, annual energy costs alone exceed $10M. Siting sovereign compute in provinces with abundant clean power — Quebec, BC, Manitoba — is both economically and environmentally sound. Quebec's hydroelectric surplus makes it the natural home for national AI compute.",
+      "expertName": "Marc Etienne Ouimette",
+      "affiliation": "",
+      "reportTitle": "Infrastructure",
+      "sentiment": "supportive",
+      "salience": "secondary",
+      "depth": "evidence-based",
+      "score": 6
+    }
+  ],
+  "transparent-ai-auditing": [
+    {
+      "id": "exp-070",
+      "header": "Third-party AI audit framework",
+      "body": "High-risk AI systems must be independently audited before deployment in high-stakes domains. Canada should establish an AI Audit Accreditation Board — housed in the Standards Council of Canada — that certifies auditing firms, defines audit methodologies by risk tier, and maintains a public registry of completed audits. Audit results (pass/fail/conditions) should be public; detailed findings can be confidential.",
+      "expertName": "Mary Wells",
+      "affiliation": "University of Waterloo",
+      "reportTitle": "Safety and Trust",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    },
+    {
+      "id": "exp-071",
+      "header": "Algorithmic transparency registries",
+      "body": "Any AI system used by federal or provincial government in decisions affecting citizens should be registered in a public Algorithmic Impact Register, modeled on New Zealand's Algorithm Charter. The register should include: system purpose, data sources, vendor, last audit date, and number of decisions made. This enables parliamentary accountability and civil society scrutiny.",
+      "expertName": "Joelle Pineau",
+      "affiliation": "Meta AI / McGill University",
+      "reportTitle": "Safety and Trust",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    }
+  ],
+  "critical-infrastructure-protection": [
+    {
+      "id": "exp-100",
+      "header": "AI security doctrine for critical infrastructure sectors",
+      "body": "The Communications Security Establishment (CSE) and Public Safety Canada should jointly develop sector-specific AI security baselines for the 10 designated critical infrastructure sectors. These baselines should address: adversarial attack vectors, data poisoning risks, model theft, and cascading failure scenarios specific to each sector. Annual threat assessments should be published in unclassified form.",
+      "expertName": "Shelly Bruce",
+      "affiliation": "Former CSE Chief",
+      "reportTitle": "Security",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    },
+    {
+      "id": "exp-101",
+      "header": "Foreign AI vendor security requirements",
+      "body": "Critical infrastructure operators that deploy AI from foreign vendors should be required to conduct security assessments equivalent to those required for foreign telecommunications equipment. Vendors from adversarial states (as defined under the Security of Information Act) should face heightened scrutiny or exclusion from critical infrastructure AI applications.",
+      "expertName": "James Neufeld",
+      "affiliation": "",
+      "reportTitle": "Security",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    }
+  ],
+  "risk-tiered-regulatory-framework": [
+    {
+      "id": "exp-080",
+      "header": "AIDA risk tier definitions need technical precision",
+      "body": "AIDA's 'high-impact system' definition is currently too broad to be operationally useful. Canada should adopt a four-tier classification system: Minimal Risk, Limited Risk, High Risk, and Unacceptable Risk — aligned with the EU AI Act taxonomy but adapted for Canadian context (e.g., including CRTC-regulated broadcasting AI separately). Each tier should have specific documentation, testing, and transparency requirements.",
+      "expertName": "Sonia Sennik",
+      "affiliation": "Creative Destruction Lab",
+      "reportTitle": "Safety and Trust",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    }
+  ],
+  "workforce-reskilling-transition": [
+    {
+      "id": "exp-090",
+      "header": "EI reform for AI-displaced workers",
+      "body": "The Employment Insurance system was designed for cyclical unemployment, not structural displacement. AI-driven job displacement has different characteristics: longer retraining timelines, higher skills gaps, and industry concentration. A Workforce Transition Support benefit — separate from EI — should provide 2 years of income support at 70% of previous earnings, tied to enrollment in accredited retraining programs.",
+      "expertName": "David Naylor",
+      "affiliation": "University of Toronto",
+      "reportTitle": "Education and Skills",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "score": 9
+    },
+    {
+      "id": "exp-091",
+      "header": "Community college AI curriculum development",
+      "body": "Community colleges reach workers that universities do not: those with existing careers, geographic constraints, and family responsibilities. A $500M, 5-year AI Skills Fund — channeled through provincial community college systems — should develop and deliver standardized AI fundamentals curricula adapted to 20+ sector-specific contexts. Employer co-design is essential to ensure labour market relevance.",
+      "expertName": "Sarah Ryan",
+      "affiliation": "",
+      "reportTitle": "Education and Skills",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "score": 6
+    }
+  ]
+}

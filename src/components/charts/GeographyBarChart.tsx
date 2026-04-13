@@ -32,10 +32,11 @@ export function GeographyBarChart() {
         <YAxis
           type="category"
           dataKey="province"
-          tick={{ fontSize: 12, fill: '#475569' }}
+          tick={{ fontSize: 11, fill: '#475569' }}
           axisLine={false}
           tickLine={false}
-          width={32}
+          width={28}
+          tickFormatter={(v: string) => v.length > 3 ? v.slice(0, 2) : v}
         />
         <Tooltip
           formatter={(value, _name, props) => [

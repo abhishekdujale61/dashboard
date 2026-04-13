@@ -6,6 +6,7 @@ import { DemographicsPage } from './pages/DemographicsPage';
 import { AlignmentPage } from './pages/AlignmentPage';
 import { RecommendationsPage } from './pages/RecommendationsPage';
 import { PillarDetailPage } from './pages/PillarDetailPage';
+import { TopicDetailPage } from './pages/TopicDetailPage';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="alignment" element={<AlignmentPage />} />
             <Route path="recommendations" element={<RecommendationsPage />} />
             <Route path="pillars/:pillarId" element={<PillarDetailPage />} />
+            <Route path="pillars/:pillarId/topics/:topicId" element={<TopicDetailPage />} />
           </Route>
         </Routes>
       </DashboardProvider>
