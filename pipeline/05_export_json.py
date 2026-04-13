@@ -16,7 +16,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from config import DB_PATH, EXPORT_DIR
+from config import DB_PATH, EXPORT_DIR, REPORT_URLS
 
 QUOTES_PER_TOPIC = 5      # max public quotes to include per topic
 MIN_BODY_LENGTH  = 40     # minimum body length for a quote to be included
@@ -168,7 +168,7 @@ def export_expert_chunks(con: sqlite3.Connection) -> dict[str, list[dict]]:
     for row in rows:
         topic_id, chunk_id, header, body, expert_name, affiliation, report_title, \
             sentiment, salience, depth, score = row
-        by_topic[topic_id].append({
+        entry: dict = {
             "id": str(chunk_id),
             "header": header or "",
             "body": body,
@@ -179,7 +179,12 @@ def export_expert_chunks(con: sqlite3.Connection) -> dict[str, list[dict]]:
             "salience": salience or "passing",
             "depth": depth or "assertion",
             "score": score or 0,
-        })
+        }
+        # Attach report URL if configured
+        report_url = REPORT_URLS.get(report_title or "")
+        if report_url:
+            entry["reportUrl"] = report_url
+        by_topic[topic_id].append(entry)
 
     return dict(by_topic)
 

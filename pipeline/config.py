@@ -144,3 +144,10 @@ RATING_COLS: dict[int, tuple[str, str]] = {
 
 SALIENCE_WEIGHTS = {"primary": 3, "secondary": 2, "passing": 1}
 DEPTH_WEIGHTS    = {"evidence-based": 3, "reasoned": 2, "assertion": 1}
+
+# Public URLs for each expert report — shown as "View full report ↗" in the comment viewer.
+# Populate once the PDFs are hosted (open.canada.ca, GitHub, or project CDN).
+# Keys must match filenames in REPORT_MAP exactly (without path).
+REPORT_URLS: dict[str, str] = {
+    # "Arvind Gupta_Research and Talent_EN.docx": "https://example.com/reports/arvind-gupta.pdf",
+}

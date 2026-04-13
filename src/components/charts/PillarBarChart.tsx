@@ -11,25 +11,41 @@ import {
 } from 'recharts';
 import { PILLARS } from '../../data';
 
+// Short labels that fit on narrow mobile bars without overlap
+const SHORT_LABELS: Record<string, string> = {
+  'Talent & Research':             'Talent',
+  'Data & Infrastructure':         'Data',
+  'Adoption & Commercialization':  'Adoption',
+  'Regulation & Governance':       'Regulation',
+  'International Collaboration':   'Intl.',
+  'Public Trust & Safety':         'Trust',
+  'Inclusive AI':                  'Inclusive',
+  'Sovereignty & Security':        'Sovereignty',
+};
+
 export function PillarBarChart() {
   const navigate = useNavigate();
 
   const data = PILLARS.map((p) => ({
-    name: p.label.split(' & ')[0],
+    name: SHORT_LABELS[p.label] ?? p.label.split(' & ')[0],
+    fullName: p.label,
     recs: p.totalRecommendations,
     color: p.color,
     slug: p.slug,
   }));
 
   return (
-    <ResponsiveContainer width="100%" height={220}>
-      <BarChart data={data} margin={{ top: 5, right: 10, left: -10, bottom: 5 }}>
+    <ResponsiveContainer width="100%" height={240}>
+      <BarChart data={data} margin={{ top: 5, right: 10, left: -10, bottom: 45 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
         <XAxis
           dataKey="name"
           tick={{ fontSize: 11, fill: '#475569' }}
           axisLine={false}
           tickLine={false}
+          angle={-40}
+          textAnchor="end"
+          interval={0}
         />
         <YAxis
           tick={{ fontSize: 11, fill: '#475569' }}
@@ -38,7 +54,10 @@ export function PillarBarChart() {
           domain={[0, 20]}
         />
         <Tooltip
-          formatter={(value) => [`${value} recommendations`, '']}
+          formatter={(value, _name, props) => [
+            `${value} recommendations`,
+            (props.payload as { fullName?: string }).fullName ?? '',
+          ]}
           contentStyle={{ background: '#0f1117', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.10)', fontSize: '13px', color: '#f1f5f9' }}
           cursor={{ fill: 'rgba(255,255,255,0.03)' }}
         />

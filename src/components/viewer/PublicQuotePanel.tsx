@@ -44,6 +44,9 @@ export function PublicQuotePanel({ quotes, totalCount }: Props) {
         <p className="text-xs text-slate-500 mt-0.5">
           Showing representative voices from {totalCount.toLocaleString()} respondents
         </p>
+        <p className="text-[10px] text-slate-600 mt-1 leading-relaxed">
+          Quotes selected by salience and depth — representative examples, not individual attributions.
+        </p>
       </div>
 
       {/* Filters */}
@@ -87,6 +90,13 @@ export function PublicQuotePanel({ quotes, totalCount }: Props) {
           ))}
         </select>
       </div>
+
+      {/* Quote count */}
+      {filtered.length > 0 && (
+        <p className="text-[10px] text-slate-600">
+          {filtered.length} of {quotes.length} quote{quotes.length !== 1 ? 's' : ''} shown
+        </p>
+      )}
 
       {/* Quotes */}
       {filtered.length === 0 ? (

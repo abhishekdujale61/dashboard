@@ -52,6 +52,7 @@ export interface ExpertChunk {
   expertName: string;
   affiliation?: string;
   reportTitle: string;
+  reportUrl?: string;
   sentiment: SentimentType;
   salience: SalienceLevel;
   depth: DepthLevel;

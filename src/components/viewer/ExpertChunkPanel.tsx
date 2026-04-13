@@ -66,7 +66,18 @@ export function ExpertChunkPanel({ chunks }: Props) {
                   {chunk.affiliation && (
                     <p className="text-[10px] text-slate-600">{chunk.affiliation}</p>
                   )}
-                  <p className="text-[10px] text-slate-600 italic">{chunk.reportTitle}</p>
+                  {chunk.reportUrl ? (
+                    <a
+                      href={chunk.reportUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-[10px] text-indigo-400 hover:text-indigo-300 italic transition-colors"
+                    >
+                      {chunk.reportTitle} ↗
+                    </a>
+                  ) : (
+                    <p className="text-[10px] text-slate-600 italic">{chunk.reportTitle}</p>
+                  )}
                 </div>
               </div>
             </div>
