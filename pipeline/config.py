@@ -4,6 +4,14 @@ Pipeline configuration — paths, constants, and mappings.
 import os
 from pathlib import Path
 
+# Load .env from project root so ANTHROPIC_API_KEY is available without
+# needing to export it manually in the shell.
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent.parent / ".env")
+except ImportError:
+    pass  # python-dotenv not installed; fall back to env vars
+
 # ── Paths ──────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
 PIPELINE_DIR = Path(__file__).parent
@@ -12,10 +20,10 @@ REPORTS_DIR = ROOT / "taskforcereports_rapportsgroupedetravail" / "EN Reports"
 DB_PATH = PIPELINE_DIR / "chunks.db"
 EXPORT_DIR = ROOT / "src" / "data"
 
-# ── Anthropic models ────────────────────────────────────────────────────────
-MODEL_PUBLIC = "claude-haiku-4-5-20251001"   # cheaper; public XLSX chunks
-MODEL_EXPERT = "claude-sonnet-4-6"           # higher quality; expert chunks
-MODEL_CANON  = "claude-sonnet-4-6"           # canonicalization pass
+# ── Groq models (free tier) ─────────────────────────────────────────────────
+MODEL_PUBLIC = "llama-3.1-8b-instant"
+MODEL_EXPERT = "llama-3.1-8b-instant"
+MODEL_CANON  = "llama-3.1-8b-instant"
 
 # ── XLSX column → pillar mapping ────────────────────────────────────────────
 # Columns 27–52 are the 26 open-text consultation questions.

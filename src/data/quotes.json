@@ -1,394 +1,2878 @@
 {
-  "graduate-funding-compute-access": [
+  "adoption-commercialization-opportunities": [
     {
-      "id": "pub-001",
-      "text": "We need substantial investment in graduate AI fellowships — the current NSERC grants simply don't compete with what US universities offer. Canada is training world-class researchers and then watching them leave for better-funded labs.",
-      "sentiment": "concerned",
+      "id": "38753",
+      "text": "Canada should NOT put resources into generative AI research. From the start generative AI has been a losing proposition that venture capitalists have been desperately pouring more and more money into in the hope that they can recoup their investments by forcing it on people. It is a sinking ship and Canada must not be a part of it. Apart from the real lack of value proposition (studies have shown that while people think it speeds up their work, it actually slows them down; the many controversies arising from generative AI chatbots giving incorrect information and even triggering psychotic epis",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "38754",
+      "text": "Canada should NOT put resources into generative AI research. From the start generative AI has been a losing proposition that venture capitalists have been desperately pouring more and more money into in the hope that they can recoup their investments by forcing it on people. It is a sinking ship and Canada must not be a part of it. Apart from the real lack of value proposition (studies have shown that while people think it speeds up their work, it actually slows them down; the many controversies arising from generative AI chatbots giving incorrect information and even triggering psychotic epis",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "38755",
+      "text": "Canada should NOT put resources into generative AI research. From the start generative AI has been a losing proposition that venture capitalists have been desperately pouring more and more money into in the hope that they can recoup their investments by forcing it on people. It is a sinking ship and Canada must not be a part of it. Apart from the real lack of value proposition (studies have shown that while people think it speeds up their work, it actually slows them down; the many controversies arising from generative AI chatbots giving incorrect information and even triggering psychotic epis",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "38756",
+      "text": "Canada should NOT put resources into generative AI research. From the start generative AI has been a losing proposition that venture capitalists have been desperately pouring more and more money into in the hope that they can recoup their investments by forcing it on people. It is a sinking ship and Canada must not be a part of it. Apart from the real lack of value proposition (studies have shown that while people think it speeds up their work, it actually slows them down; the many controversies arising from generative AI chatbots giving incorrect information and even triggering psychotic epis",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "38757",
+      "text": "Canada should NOT put resources into generative AI research. From the start generative AI has been a losing proposition that venture capitalists have been desperately pouring more and more money into in the hope that they can recoup their investments by forcing it on people. It is a sinking ship and Canada must not be a part of it. Apart from the real lack of value proposition (studies have shown that while people think it speeds up their work, it actually slows them down; the many controversies arising from generative AI chatbots giving incorrect information and even triggering psychotic epis",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    }
+  ],
+  "ai-adoption-obstacles": [
+    {
+      "id": "26915",
+      "text": "The main barriers are that it doesn't work properly, is environmentally disastrous and ethically dubious at best. Government and industry should do anything they can to snuff it out.",
+      "sentiment": "opposed",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
       "province": "ON",
-      "score": 6
+      "score": 6.0
     },
     {
-      "id": "pub-002",
-      "text": "Access to compute infrastructure is the single biggest bottleneck for Canadian AI research. We have the talent but not the hardware. A national AI compute cluster — like DRAC but scaled up — would be transformative.",
+      "id": "52084",
+      "text": "Better that we generally don't adopt ai due to the large list of problems AI is contributing to. Only real use is a tool with STRONG enforcement. \n\nGenAi is generally a terrible idea.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "61451",
+      "text": "Not using ai in any capacity due to gross innacuracies caused by algorithm hallucinations, environmental harm, and the fact that ai models are based on stolen work from actual humans across the globe. It is a technology that does more harm than good. As a taxpaying Canadian I do not support government funds being used to fund these environmentally destructive enterprises.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "61452",
+      "text": "Not using ai in any capacity due to gross innacuracies caused by algorithm hallucinations, environmental harm, and the fact that ai models are based on stolen work from actual humans across the globe. It is a technology that does more harm than good. As a taxpaying Canadian I do not support government funds being used to fund these environmentally destructive enterprises.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "61453",
+      "text": "Not using ai in any capacity due to gross innacuracies caused by algorithm hallucinations, environmental harm, and the fact that ai models are based on stolen work from actual humans across the globe. It is a technology that does more harm than good. As a taxpaying Canadian I do not support government funds being used to fund these environmentally destructive enterprises.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "ai-and-data-sovereignty": [
+    {
+      "id": "4943",
+      "text": "Canada can grow its AI edge by leading in ethical, human-centered AI. By establishing clear protections for voices and creative content, requiring consent, control, and compensation, Canada can set global standards, attract responsible AI innovators, and support small creative businesses. Promising areas for leadership include generative AI ethics, human-centered AI tools, and AI in media and storytelling, where Canada can balance technological progress with respect for human creativity.",
       "sentiment": "supportive",
       "salience": "primary",
-      "depth": "evidence-based",
-      "respondentType": "Organization",
-      "province": "QC",
-      "score": 9
-    },
-    {
-      "id": "pub-003",
-      "text": "Industry partnerships for graduate students are great but shouldn't come at the cost of academic independence. Funding tied to corporate IP agreements undermines the open research culture that made Canada's AI ecosystem valuable.",
-      "sentiment": "concerned",
-      "salience": "secondary",
       "depth": "reasoned",
       "respondentType": "Individual",
       "province": "BC",
-      "score": 4
+      "score": 6.0
     },
     {
-      "id": "pub-004",
-      "text": "Increase NSERC Alliance grants and create a dedicated AI PhD stipend stream. $50,000/year stipends would make Canadian grad programs genuinely competitive with MIT and Stanford.",
+      "id": "4945",
+      "text": "Canada can remain globally competitive and ethically grounded in AI by implementing clear protections for human voices and creative content, ensuring consent, control, and compensation, supporting small and ethical AI innovators, and embedding fairness and respect for human creativity at the core of research and development.",
       "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "6349",
+      "text": "Respect copyrights, keep data within Canada, protect our environment due to increased demand for natural resources",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "6350",
+      "text": "Respect copyrights, keep data within Canada, protect our environment due to increased demand for natural resources",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "6351",
+      "text": "Respect copyrights, keep data within Canada, protect our environment due to increased demand for natural resources",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 6.0
+    }
+  ],
+  "ai-deployment-ban-and-restrictions": [
+    {
+      "id": "11175",
+      "text": "Canada should ban generative and analytic AI in all academic settings. It should ban generative and analytic AI use in all settings related to art and culture. It should ban generative and analytic AI use in all military settings. It should ban generative and analytic AI use in all medical settings. And if not, it should require any image, code, or information produced by AI to be labeled as such, in a noticeable and unmistakeable way. And then it should be banned.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 6.0
+    },
+    {
+      "id": "22198",
+      "text": "There is no such thing as responsible AI use.\n\n(If it was a brain in a box, an actual artificial person, you'd be building slavery, which is entirely wrong; what it actually is consists of a plausible lie machine, which is also wrong.)",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "31231",
+      "text": "Un moratoire est nécessaire, l'IA est déjà bien implanté alors qu'il n'y a aucun encadrement.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6.0
+    },
+    {
+      "id": "5217",
+      "text": "None. AI is a tool to displace human workers. It's antithetical to responsibility. There is NO trustworthy AI and there is no way to deploy it responsibly. It ruins lives across the board. It is unanimously a bad idea.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "16800",
+      "text": "Ban it, except in limited contexts, until our concerns are addressed.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    }
+  ],
+  "ai-deployment-moratorium": [
+    {
+      "id": "12514",
+      "text": "AI needs to be legislated out of existence.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "27549",
+      "text": "Outlaw it entirely, impeach members of government that have been pushing for it, since the only possibilities of why they have done so are that they have been bribed or lack the critical thinking skills necessary to be allowed such a position and thus are fraudulent members.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 3.0
+    },
+    {
+      "id": "43847",
+      "text": "The only regulation that should be employed is one that outlaws AI.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "26184",
+      "text": "make it completely illegal. it is eugenicist snake oil.",
+      "sentiment": "opposed",
+      "salience": "passing",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 1.0
+    }
+  ],
+  "ai-development-moratorium": [
+    {
+      "id": "21890",
+      "text": "I do not want ANY AI adoption in Canada.  It is a waste and unethical.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "21891",
+      "text": "I do not want ANY AI adoption in Canada.  It is a waste and unethical.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "21892",
+      "text": "I do not want ANY AI adoption in Canada.  It is a waste and unethical.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "22146",
+      "text": "Canada should move beyond AI by not pursuing it. Its harms outweigh any purported benefits.",
+      "sentiment": "opposed",
       "salience": "primary",
       "depth": "assertion",
       "respondentType": "Individual",
       "province": "AB",
-      "score": 3
+      "score": 3.0
     },
     {
-      "id": "pub-005",
-      "text": "The government should fund cloud compute credits for academic researchers, similar to what AWS and Google offer through research programs. This is a relatively cheap intervention with high leverage.",
-      "sentiment": "supportive",
+      "id": "22147",
+      "text": "Canada should move beyond AI by not pursuing it. Its harms outweigh any purported benefits.",
+      "sentiment": "opposed",
       "salience": "primary",
-      "depth": "reasoned",
-      "respondentType": "Individual",
-      "province": "ON",
-      "score": 6
-    }
-  ],
-  "global-talent-attraction": [
-    {
-      "id": "pub-010",
-      "text": "The Global Talent Stream visa pathway is promising but still too slow for AI. We've lost candidates who accepted US offers while waiting 8+ weeks for Canadian approvals. Processing needs to be under 2 weeks.",
-      "sentiment": "concerned",
-      "salience": "primary",
-      "depth": "evidence-based",
-      "respondentType": "Organization",
-      "province": "ON",
-      "score": 9
-    },
-    {
-      "id": "pub-011",
-      "text": "Canada's immigration system is genuinely competitive for attracting international AI talent — especially from countries with political instability. We should be marketing this more aggressively.",
-      "sentiment": "supportive",
-      "salience": "secondary",
       "depth": "assertion",
-      "respondentType": "Individual",
-      "province": "BC",
-      "score": 2
-    },
-    {
-      "id": "pub-012",
-      "text": "Retaining international PhD graduates is more efficient than attracting senior researchers. They're already here, trained at Canadian institutions, and integrated into Canadian research networks. Create a direct pathway from PhD to permanent residency.",
-      "sentiment": "supportive",
-      "salience": "primary",
-      "depth": "reasoned",
-      "respondentType": "Individual",
-      "province": "QC",
-      "score": 6
-    }
-  ],
-  "sme-ai-adoption-support": [
-    {
-      "id": "pub-020",
-      "text": "Small businesses want to adopt AI but have no idea where to start. We need a government-funded AI adoption advisory service — like a 'digital extension officer' program, similar to what agriculture has.",
-      "sentiment": "supportive",
-      "salience": "primary",
-      "depth": "reasoned",
-      "respondentType": "Organization",
-      "province": "MB",
-      "score": 6
-    },
-    {
-      "id": "pub-021",
-      "text": "The biggest barrier isn't technology or cost — it's trust. SME owners don't understand what AI actually does and are afraid of liability if something goes wrong. Clear liability frameworks would unlock massive adoption.",
-      "sentiment": "concerned",
-      "salience": "primary",
-      "depth": "evidence-based",
-      "respondentType": "Organization",
-      "province": "ON",
-      "score": 9
-    },
-    {
-      "id": "pub-022",
-      "text": "We need sector-specific AI adoption playbooks — not generic guides. What works for a manufacturer in Windsor is completely different from what works for a law firm in Calgary.",
-      "sentiment": "supportive",
-      "salience": "primary",
-      "depth": "reasoned",
       "respondentType": "Individual",
       "province": "AB",
-      "score": 6
-    },
-    {
-      "id": "pub-023",
-      "text": "SR&ED credits should be expanded to cover AI implementation costs, not just pure research. Right now there's a gap between 'research' and 'adoption' that leaves SMEs without support for the practical work.",
-      "sentiment": "supportive",
-      "salience": "primary",
-      "depth": "reasoned",
-      "respondentType": "Organization",
-      "province": "ON",
-      "score": 6
-    },
-    {
-      "id": "pub-024",
-      "text": "I'm a small manufacturer in Kitchener. AI could transform our quality control processes but I have no way to evaluate vendors, understand contracts, or know if the data I share with these companies is safe.",
-      "sentiment": "concerned",
-      "salience": "primary",
-      "depth": "assertion",
-      "respondentType": "Individual",
-      "province": "ON",
-      "score": 3
+      "score": 3.0
     }
   ],
-  "ip-retention-canadian-ownership": [
+  "ai-environmental-and-social-harms": [
     {
-      "id": "pub-030",
-      "text": "Only 32% of Canadian-founded AI companies remain in Canada. This is a national emergency. We're subsidizing the education and early research that creates these companies, and then the US harvests them. We need conditions on federal AI funding that require companies to maintain Canadian operations.",
-      "sentiment": "concerned",
+      "id": "24183",
+      "text": "We do not need Ai database centers here wasting our water and adding to climate change which is already dire. Ai is ruining everything it touches , stealing from artists, feeding people biased and incorrect information in place of searches and actual therapy. Please do not bring more of this harm into our lives by bringing in into our country",
+      "sentiment": "opposed",
       "salience": "primary",
-      "depth": "evidence-based",
-      "respondentType": "Organization",
-      "province": "ON",
-      "score": 9
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 6.0
     },
     {
-      "id": "pub-031",
-      "text": "IP generated with public research funding should have conditions attached — not ownership, but right of first access for Canadian companies and government. This is how the US handles DARPA-funded research.",
+      "id": "24184",
+      "text": "We do not need Ai database centers here wasting our water and adding to climate change which is already dire. Ai is ruining everything it touches , stealing from artists, feeding people biased and incorrect information in place of searches and actual therapy. Please do not bring more of this harm into our lives by bringing in into our country",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 6.0
+    },
+    {
+      "id": "24185",
+      "text": "We do not need Ai database centers here wasting our water and adding to climate change which is already dire. Ai is ruining everything it touches , stealing from artists, feeding people biased and incorrect information in place of searches and actual therapy. Please do not bring more of this harm into our lives by bringing in into our country",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 6.0
+    },
+    {
+      "id": "36985",
+      "text": "Canada should not invest in AI research, it is an environmentally destructive technology that is of at best dubious (and likely worthless) value, and is currently the source of a dangerous economic bubble that is on the verge of popping",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "36986",
+      "text": "Canada should not invest in AI research, it is an environmentally destructive technology that is of at best dubious (and likely worthless) value, and is currently the source of a dangerous economic bubble that is on the verge of popping",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    }
+  ],
+  "ai-for-defense-and-threat-detection": [
+    {
+      "id": "1732",
+      "text": "AI can enhance Canada’s protection and defence through threat detection, predictive analysis, and secure communications. A strong AI defensive posture requires cross-sector coordination, robust cybersecurity standards, continuous monitoring, and workforce expertise. Investments in resilient infrastructure, ethical frameworks, and international collaboration ensure preparedness while safeguarding society, justice, and responsible stewardship.",
       "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
-      "province": "QC",
-      "score": 6
+      "province": "ON",
+      "score": 6.0
     },
     {
-      "id": "pub-032",
-      "text": "We should be more welcoming of foreign acquisition if it means Canadian research gets funded. The alternative is that it doesn't happen at all. We don't have the domestic capital to compete.",
+      "id": "3927",
+      "text": "AI can strengthen defence by detecting cyber intrusions, exposing disinformation campaigns, and enabling faster responses to threats. A strong posture requires coordination across government, industry, and civil society, with standards that ensure transparency and human oversight. Canada should also create a social-media equivalent of the Amber Alert system to quickly warn citizens about verified disinfo or AI-driven attacks, supported by skilled analysts and resilient sovereign infrastructure.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "8628",
+      "text": "AI can better position Canada’s protection and defence by enhancing threat detection, intelligence analysis, autonomous systems, and decision support for military and cybersecurity operations. It enables faster response times, improved situational awareness, and predictive capabilities against emerging threats.\n\nTo build a strong AI defensive posture, Canada needs:\n- Coordination across public and private sectors to share data, expertise, and technology securely.\n- Implementation of security-focused AI standards and governance frameworks ensuring ethical, robust, and resilient AI systems in de",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "30256",
+      "text": "AI can strengthen Canada’s protection and defense by enhancing situational awareness, threat detection, and decision support across military, intelligence, and critical infrastructure sectors. Applications include autonomous monitoring of networks and borders, predictive analytics for cyber and physical threats, and simulation tools for strategic planning. To establish a strong AI defensive posture, Canada must implement security-focused standards and frameworks that ensure all AI systems used in defense are resilient, auditable, and privacy-compliant, particularly when handling sensitive pers",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "35828",
+      "text": "AI can transform Canada’s defence capabilities by enhancing intelligence analysis, autonomous systems, cyber defense, and real-time threat detection. To maintain a strong AI defensive posture, Canada needs deep coordination between public agencies, private sector innovators, and academia.\n\nDeveloping and enforcing security-focused AI standards and frameworks will ensure reliable, explainable, and secure AI systems. Long-term preparedness demands continuous investment in AI R&D, simulation exercises, and scenario planning to anticipate emerging AI-driven threats.\n\nBuilding sovereign AI infrastr",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "OU",
+      "score": 6.0
+    }
+  ],
+  "ai-governance-and-oversight": [
+    {
+      "id": "6784",
+      "text": "Keep our data in the country, build the infrastructure to deliver and store it, and make any digital usage by Canadians transparent so they can see where the data they are seeing comes from. This is especially important in the 'blackbox' world of AI.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "14816",
+      "text": "Ordinary product liability, copyright, and competition law should cover most scenarios, provided we don't rush to override them in a fit of bubble boosterism.",
+      "sentiment": "neutral",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 6.0
+    },
+    {
+      "id": "24841",
+      "text": "We need stronger protections for ordinary workers. Companies that lay off workers to replace them with AI should be extensively investigated, heavily fined, and be strictly and ruthlessly regulated. AI products are inherently untrustworthy and are never responsibly deployed, as are the companies that make and sell them.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "26908",
+      "text": "Protections for workers to being replaced by AI, green energy / water usage standards, safeties to avoid unaccountable decision making or harm caused by AIs.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "39049",
+      "text": "I work in the animation industry and myself and everyone I know is out of work. Most of us have been out of work for 2+ years. AI and greedy tech corporations are strangling Canadian media. People are out of work, when we have work the teams are small and for below living wages, and more than a few people I know have had to give up their current living situations for worse conditions. Canada please think of your human citizens and be responsible with AI. Implement laws to protect human workers and slow companies being allowed to freely replace human workers with AI. The use of Generative AI is",
       "sentiment": "opposed",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
       "province": "BC",
-      "score": 6
+      "score": 6.0
     }
   ],
-  "harm-redress-complaint-mechanisms": [
+  "ai-infrastructure-and-stability": [
     {
-      "id": "pub-040",
-      "text": "When an AI system makes a decision that harms me — a denied loan, a flagged job application — I need a clear, accessible way to challenge that decision. Right now there's nothing. No regulator, no ombudsperson, no process.",
-      "sentiment": "concerned",
+      "id": "15184",
+      "text": "AI in its current form is untrustworthy.\nThey are not 100% accurate either even factual information. Answers can change depending on how you word a question.\n\nI think it would be better if we didn’t try and jump on this still new technology until it is further improved on.\n\nIt should be left out of every kind of field until further advancement.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "15185",
+      "text": "AI in its current form is untrustworthy.\nThey are not 100% accurate either even factual information. Answers can change depending on how you word a question.\n\nI think it would be better if we didn’t try and jump on this still new technology until it is further improved on.\n\nIt should be left out of every kind of field until further advancement.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "15186",
+      "text": "AI in its current form is untrustworthy.\nThey are not 100% accurate either even factual information. Answers can change depending on how you word a question.\n\nI think it would be better if we didn’t try and jump on this still new technology until it is further improved on.\n\nIt should be left out of every kind of field until further advancement.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "15187",
+      "text": "AI in its current form is untrustworthy.\nThey are not 100% accurate either even factual information. Answers can change depending on how you word a question.\n\nI think it would be better if we didn’t try and jump on this still new technology until it is further improved on.\n\nIt should be left out of every kind of field until further advancement.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "15188",
+      "text": "AI in its current form is untrustworthy.\nThey are not 100% accurate either even factual information. Answers can change depending on how you word a question.\n\nI think it would be better if we didn’t try and jump on this still new technology until it is further improved on.\n\nIt should be left out of every kind of field until further advancement.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "ai-infrastructure-investment": [
+    {
+      "id": "23767",
+      "text": "Zero. We'll be fine for a few years until something in this wretched industry possibly turns out to be something.",
+      "sentiment": "opposed",
       "salience": "primary",
       "depth": "assertion",
       "respondentType": "Individual",
       "province": "ON",
-      "score": 3
+      "score": 3.0
     },
     {
-      "id": "pub-041",
-      "text": "The EU AI Act's right-to-explanation provisions are a good model. Canadians should have the right to know when a significant decision was made by or with AI, and to request a human review.",
+      "id": "24090",
+      "text": "Zero. It's a dead end for our culture and society.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 3.0
+    },
+    {
+      "id": "32391",
+      "text": "you should be supporting social issues instead of pouring billions of dollars down billionaires mouths. we dont need clankers, we need social support. AI will make us stupider and the rich richer.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "32392",
+      "text": "you should be supporting social issues instead of pouring billions of dollars down billionaires mouths. we dont need clankers, we need social support. AI will make us stupider and the rich richer.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "32393",
+      "text": "you should be supporting social issues instead of pouring billions of dollars down billionaires mouths. we dont need clankers, we need social support. AI will make us stupider and the rich richer.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    }
+  ],
+  "ai-international-standards-and-alignment": [
+    {
+      "id": "40360",
+      "text": "Assurance of Product Integrity & Ethical Compliance\n1/. ISO/IEC 27001 (Information Security Management Systems)\n2/. ISO/IEC 42001 (AI Management Systems)\n3/. ISO/IEC 23894 (AI Risk Management)\n4/. OECD AI Principles\n5/. EU AI Act (for benchmarking)\n6/. Explainable AI & Model Transparency Standards\n7/. Privacy & Security Standards\n8/. Ethics & Bias Testing Protocols\n9/. 3rd pa\n\nRecommended Regulatory & Standards Approach\n1/. Risk-Based Tiering\n* High-risk AI: Full regulatory oversight, mandatory certification, and audits.\n* Medium-risk AI: Voluntary certification and sectoral guidance.\n* Low-ri",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "41965",
+      "text": "Adhere to a clear international standard (OECD for example) and update the internal legal framework. The Parliament also is not helping...",
       "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
-      "province": "BC",
-      "score": 6
+      "province": "NO",
+      "score": 6.0
     },
     {
-      "id": "pub-042",
-      "text": "We should establish an AI Ombudsperson with real teeth — not just an advisory body. They should have the power to investigate, order remediation, and publicly name violators.",
+      "id": "51663",
+      "text": "Canada needs a clear, risk-based Responsible AI framework built on international standards and consistent oversight. adopting ISO 42001 for AI governance and ISO 23894 for risk management would give organizations structured accountability, the NIST AI Risk Management Framework can guide testing, documentation, monitoring, etc. Aligning with the EU AI Act ensures global compatibility, and the upcoming Artificial Intelligence and Data Act (AIDA) should anchor domestic regulation.",
       "sentiment": "supportive",
       "salience": "primary",
-      "depth": "reasoned",
-      "respondentType": "Organization",
-      "province": "ON",
-      "score": 6
-    },
-    {
-      "id": "pub-043",
-      "text": "Class action frameworks need to be updated for AI harms. When thousands of people are harmed by the same algorithmic system, they need a practical way to seek collective redress.",
-      "sentiment": "supportive",
-      "salience": "secondary",
       "depth": "reasoned",
       "respondentType": "Individual",
       "province": "AB",
-      "score": 4
-    }
-  ],
-  "indigenous-data-sovereignty": [
-    {
-      "id": "pub-050",
-      "text": "First Nations data belongs to First Nations. Full stop. Any AI system trained on Indigenous languages, knowledge, or health data without explicit community consent is a form of data colonialism.",
-      "sentiment": "supportive",
-      "salience": "primary",
-      "depth": "assertion",
-      "respondentType": "Organization",
-      "province": "BC",
-      "score": 3
+      "score": 6.0
     },
     {
-      "id": "pub-051",
-      "text": "OCAP principles (Ownership, Control, Access, Possession) should be encoded into any federal AI legislation. This isn't a niche concern — it's a fundamental rights issue.",
+      "id": "54482",
+      "text": "Canada should align procurement expectations and adoption guidelines with:\n•\tISO/IEC 42001 (AI Management Systems): establishes accountable oversight and continuous improvement around AI use.\n•\tCPA ethics and auditability expectations: critical for financial operations, KYC, payment integrity, fraud controls.\n•\tCanadian privacy and data residency requirements: especially where personal, financial, or operational data is involved.\n•\tVoluntary Code of Conduct on the Responsible Development and Management of Advanced Generative AI Systems: now needs teeth at department and SME level.\nWe recommend",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "ai-investment-and-economic-risks": [
+    {
+      "id": "19826",
+      "text": "The risk is canada over investing in a tech bubble, like the dot.com companies of the early 2000s and having it collapse, which would cause widespread economic harm to Canadians.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44617",
+      "text": "AI is a Silicon Valley scam. Anyone with a brain can see the bubble is going to burst and take down everyone invested heavily into it along with it. Canada shouldn't be investing ANY of it's valued resources or it's finances in such an objectively volatile, unproven, scam. Should the Canadian government had invested, promoted billions into NFTs? I don't think so. Divest now before people's retirements go up in smoke on a fraudulent asset. Best case scenario, the AI bubble doesn't burst and Canada makes enough money to fund the giga-bloated EI bubble that is caused by the hundreds of thousands ",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "44618",
+      "text": "AI is a Silicon Valley scam. Anyone with a brain can see the bubble is going to burst and take down everyone invested heavily into it along with it. Canada shouldn't be investing ANY of it's valued resources or it's finances in such an objectively volatile, unproven, scam. Should the Canadian government had invested, promoted billions into NFTs? I don't think so. Divest now before people's retirements go up in smoke on a fraudulent asset. Best case scenario, the AI bubble doesn't burst and Canada makes enough money to fund the giga-bloated EI bubble that is caused by the hundreds of thousands ",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "44619",
+      "text": "AI is a Silicon Valley scam. Anyone with a brain can see the bubble is going to burst and take down everyone invested heavily into it along with it. Canada shouldn't be investing ANY of it's valued resources or it's finances in such an objectively volatile, unproven, scam. Should the Canadian government had invested, promoted billions into NFTs? I don't think so. Divest now before people's retirements go up in smoke on a fraudulent asset. Best case scenario, the AI bubble doesn't burst and Canada makes enough money to fund the giga-bloated EI bubble that is caused by the hundreds of thousands ",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "28641",
+      "text": "Please do not subsidize AI companies, invest in green sustainable energy projects.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    }
+  ],
+  "ai-policy-proposals": [
+    {
+      "id": "18284",
+      "text": "1) Develop AI that doesn't require polluting ANY finite potable water, and everyone will want your AI. 2) Develop AI without infringing ANY copyright, you won't have to worry about lawsuits and save money on development. 3) Pass legislation to protect Canadian drinking water and Canadian copyrights to convince your constituents that you will develop AI responsibly. 4) Facilitate the enforcement and protection of Canadian copyrights already infringed upon by existing AI developers to convince your constituents that you will develop AI responsibly. 5) Have qualified relevant experts conduct thor",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "18285",
+      "text": "1) Develop AI that doesn't require polluting ANY finite potable water, and everyone will want your AI. 2) Develop AI without infringing ANY copyright, you won't have to worry about lawsuits and save money on development. 3) Pass legislation to protect Canadian drinking water and Canadian copyrights to convince your constituents that you will develop AI responsibly. 4) Facilitate the enforcement and protection of Canadian copyrights already infringed upon by existing AI developers to convince your constituents that you will develop AI responsibly. 5) Have qualified relevant experts conduct thor",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "18286",
+      "text": "1) Develop AI that doesn't require polluting ANY finite potable water, and everyone will want your AI. 2) Develop AI without infringing ANY copyright, you won't have to worry about lawsuits and save money on development. 3) Pass legislation to protect Canadian drinking water and Canadian copyrights to convince your constituents that you will develop AI responsibly. 4) Facilitate the enforcement and protection of Canadian copyrights already infringed upon by existing AI developers to convince your constituents that you will develop AI responsibly. 5) Have qualified relevant experts conduct thor",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    }
+  ],
+  "ai-regulatory-framework": [
+    {
+      "id": "14945",
+      "text": "AI should be strictly regulated, if not banned outright",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "14946",
+      "text": "AI should be strictly regulated, if not banned outright",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "14947",
+      "text": "AI should be strictly regulated, if not banned outright",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    }
+  ],
+  "ai-risk-based-approach": [
+    {
+      "id": "13794",
+      "text": "To ensure AI products are trustworthy and responsibly deployed, Canada must adopt a comprehensive framework that combines regulation, certification, and ethical standards, drawing from global best practices.\nKey Elements to Implement:\n1. Risk-Based Regulation\nInspired by the EU’s AI Act, Canada should classify AI systems by risk level, prohibited, high-risk, limited-risk, and minimal-risk, with corresponding obligations such as conformity assessments, transparency, and human oversight. [aws.amazon.com]\n2. Ethical Standards and Certification\nAdopt ISO/IEC standards (e.g., 24027, 24368) and deve",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "8272",
+      "text": "Adopt risk-based AI rules, light for research, strict for high-risk uses. Require model cards, provenance tracking, and conformity marks like “Canadian-Tested, Globally-Trusted.” Clear liability rules and in-house safety testing will make AI both responsible and competitive.",
       "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
       "province": "MB",
-      "score": 6
+      "score": 6.0
     },
     {
-      "id": "pub-052",
-      "text": "The government needs to fund Indigenous-led AI development, not just consult Indigenous communities about AI someone else built. Co-creation, not consultation.",
-      "sentiment": "supportive",
-      "salience": "primary",
-      "depth": "reasoned",
-      "respondentType": "Organization",
-      "province": "ON",
-      "score": 6
-    }
-  ],
-  "sovereign-compute-infrastructure": [
-    {
-      "id": "pub-060",
-      "text": "Canada cannot be strategically sovereign in AI if our models are trained and run on US-owned cloud infrastructure. We need national compute the way we needed national energy infrastructure — and the government should treat it with the same urgency.",
+      "id": "8490",
+      "text": "1. RISK-BASED FRAMEWORK (Like EU AI Act)\n- Unacceptable: Social scoring, manipulation (banned)\n- High-risk: Healthcare, hiring, finance, law enforcement (strict oversight)\n- Limited: Chatbots, deepfakes (transparency required)\n- Minimal: Games, spam filters (self-regulation)\n\n2. MANDATORY REQUIREMENTS FOR HIGH-RISK AI\n- Pre-deployment impact assessments\n- Human oversight mechanisms\n- Adversarial testing for bias/safety\n- Audit trails (explainable decisions)\n- Third-party certification before deployment\n\n3. SECTORAL STANDARDS\n- Healthcare: FDA-style approval for diagnostic AI\n- Finance: Stress ",
       "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
-      "province": "QC",
-      "score": 6
+      "province": "NO",
+      "score": 6.0
     },
     {
-      "id": "pub-061",
-      "text": "The AI Sovereign Compute Fund announced in Budget 2024 is a start but insufficient. $2B over 5 years sounds large but won't build globally competitive infrastructure. We need 10x.",
+      "id": "32242",
+      "text": "There needs to be a balance between the need to provide trust and the need to create scope for innovation. Many uses of AI present a risk of only limited harm. In those cases, it may be that the only requirement is for users to be aware of the possible harm and accept the risk with boilerplate text.\nIn other cases, there may be particular and substantial risks, such as the disclosure of confidential information, or reliance on AI to make a decision about a particular person (for example, in an insurance context). Regulations should create a number of different regulatory regimes, depending on ",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "43480",
+      "text": "Canada needs rules that are clear to follow and hard to game. KatloTech will apply a simple life cycle framework at IceFox. First classify systems by impact and exposure, then apply the matching assurance package. Assurance combines data governance, security, safety testing, transparency, and oversight.\n\nData governance starts with documented consent and provenance, residency on Canadian soil, retention limits, and Indigenous stewardship when community data is involved. Security requires threat modeling, access control, adversarial testing, and continuous monitoring. Safety requires defined us",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "NT",
+      "score": 6.0
+    }
+  ],
+  "ai-security-risks-and-mitigation": [
+    {
+      "id": "4966",
+      "text": "Canada faces AI-related security risks including autonomous weapons, cyberattacks, deepfake disinformation, and enhanced espionage. To mitigate these, it is pursuing national cybersecurity strategies, AI safety oversight, real-time cyber defense, international collaboration, and legislative measures to ensure accountability and resilience.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 9.0
+    },
+    {
+      "id": "32538",
+      "text": "Emerging risks include sophisticated cyberattacks, deepfake-enabled influence campaigns, algorithmic cyberattacks, and adversarial model poisoning. Info-Tech recommends investing in AI incident regimes, continuous red-teaming, dual-use screening, and strategic foresight tools. Building resilience through layered, zero-trust architectures and international collaboration is necessary for mitigating security risks.",
       "sentiment": "concerned",
       "salience": "primary",
       "depth": "evidence-based",
       "respondentType": "Organization",
       "province": "ON",
-      "score": 9
+      "score": 9.0
     },
     {
-      "id": "pub-062",
-      "text": "Public compute should be run through a not-for-profit or Crown corporation model, with access governed by a merit-based allocation system. Prevent capture by large incumbents.",
-      "sentiment": "supportive",
-      "salience": "secondary",
+      "id": "882",
+      "text": "Emerging AI risks: adversarial attacks, data theft/poisoning, autonomous failures, deepfakes, dual-use misuse.\n\nMitigation: robust standards/testing, secure/federated data, red-teaming, regulation, and cybersecurity-focused AI talent.",
+      "sentiment": "concerned",
+      "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
-      "province": "BC",
-      "score": 4
-    }
-  ],
-  "transparent-ai-auditing": [
+      "province": "ON",
+      "score": 6.0
+    },
     {
-      "id": "pub-070",
-      "text": "High-risk AI systems — those used in hiring, lending, criminal justice, health — must be audited before deployment, not just after harm occurs. Third-party auditing with real accreditation standards.",
+      "id": "2694",
+      "text": "Emerging AI security risks include deepfakes, data poisoning, cyberattacks powered by generative models, and misuse of AI in critical infrastructure or defence. Canada can mitigate threats through strong governance, national red-teaming networks, and secure data standards. Partnerships across government, industry, and academia are essential. For AI Future Leaders, embedding AI safety and ethics in K–12 and educator training prepares future talent to recognize and counter risks responsibly.",
       "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Organization",
       "province": "ON",
-      "score": 6
+      "score": 6.0
     },
     {
-      "id": "pub-071",
-      "text": "A public AI registry — where you can look up what AI systems government and major institutions are using and what audits they've passed — would dramatically increase accountability.",
-      "sentiment": "supportive",
+      "id": "19193",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
-      "province": "QC",
-      "score": 6
-    },
-    {
-      "id": "pub-072",
-      "text": "Auditing standards should be developed with technical experts, not just by lawyers and bureaucrats. Regulatory capture is a real risk here — the people being audited shouldn't be writing the audit standards.",
-      "sentiment": "concerned",
-      "salience": "secondary",
-      "depth": "assertion",
-      "respondentType": "Individual",
-      "province": "BC",
-      "score": 2
+      "province": "ON",
+      "score": 6.0
     }
   ],
-  "risk-tiered-regulatory-framework": [
+  "ai-stability-and-deployment-risks": [
     {
-      "id": "pub-080",
-      "text": "Regulation should be proportional to risk. An AI that recommends a Netflix show needs no oversight. An AI that decides bail conditions needs extensive oversight. This sounds obvious but our current laws don't reflect it.",
+      "id": "2790",
+      "text": "We need our own AI.  You can't whitewash what a Meta or a Microsoft or an OpenAI is doing.  They are blatantly revenue driven with responsible AI just being a marketing term to reduce concern over their misuse of public data.  If we had our own foundation model it would serve as a natural resource to Canadians and Canadian businesses with the government itself vouching for it.  We could be as transparent as we risk being but certainly much more so than any current AI vendor.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "31703",
+      "text": "Je pense que le Canada devrais créer des infrastructure pour une IA canadienne qui vas wtre utilisé par les Canadiens où les données sont stocké au Canada plutot qu'aux USA .Nous pourrions developper des interfaces et des APis pour le secteur publiqur pour s'assuré que les données confidentiels de notre gouvernement reste au Canada, plutot que des employés du governement utilise chatgpt en fournissant des données (malheuresement ce n'est pas ècrit,mais la réalité est que les données vont aux Us).Je pense que nous avons la capacité de le faire et de montré aux reste du monde que le Canada se so",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "NB",
+      "score": 6.0
+    },
+    {
+      "id": "31704",
+      "text": "Je pense que le Canada devrais créer des infrastructure pour une IA canadienne qui vas wtre utilisé par les Canadiens où les données sont stocké au Canada plutot qu'aux USA .Nous pourrions developper des interfaces et des APis pour le secteur publiqur pour s'assuré que les données confidentiels de notre gouvernement reste au Canada, plutot que des employés du governement utilise chatgpt en fournissant des données (malheuresement ce n'est pas ècrit,mais la réalité est que les données vont aux Us).Je pense que nous avons la capacité de le faire et de montré aux reste du monde que le Canada se so",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "NB",
+      "score": 6.0
+    },
+    {
+      "id": "44445",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44446",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "ai-standards-and-performer-protections": [
+    {
+      "id": "4233",
+      "text": "Canada needs strong, enforceable standards to make sure AI is used responsibly. This would\ninclude consequences for misuse, safety checks, clear records of AI training, protections for\nperformers’ voices and likeness, and ways for performers and unions to contribute responsibly to\nharm-reduction practices. Trust in AI depends on having fair frameworks that balance innovation\nwith enforceable rights and accountability.",
       "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
       "province": "ON",
-      "score": 6
+      "score": 6.0
     },
     {
-      "id": "pub-081",
-      "text": "AIDA is a good foundation but needs teeth. Right now the penalties are too low to deter bad actors and the timelines for compliance are too generous. The EU moved faster.",
+      "id": "4476",
+      "text": "Canada needs strong, enforceable standards to make sure AI is used responsibly. This would \ninclude consequences for misuse, safety checks, clear records of AI training, protections for \nperformers’ voices and likeness, and ways for performers and unions to contribute responsibly to \nharm-reduction practices. Trust in AI depends on having fair frameworks that balance innovation \nwith enforceable rights and accountability.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4488",
+      "text": "Canada needs strong, enforceable standards to make sure AI is used responsibly. This would\ninclude consequences for misuse, safety checks, clear records of AI training, protections for\nperformers’ voices and likeness, and ways for performers and unions to contribute responsibly to\nharm-reduction practices. Trust in AI depends on having fair frameworks that balance innovation\nwith enforceable rights and accountability.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4510",
+      "text": "Canada needs strong, enforceable standards to make sure AI is used responsibly. This would\ninclude consequences for misuse, safety checks, clear records of AI training, protections for\nperformers’ voices and likeness, and ways for performers and unions to contribute responsibly to\nharm-reduction practices. Trust in AI depends on having fair frameworks that balance innovation\nwith enforceable rights and accountability.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4562",
+      "text": "Canada needs strong, enforceable standards to make sure AI is used responsibly. This would\ninclude consequences for misuse, safety checks, clear records of AI training, protections for\nperformers’ voices and likeness, and ways for performers and unions to contribute responsibly to\nharm-reduction practices. Trust in AI depends on having fair frameworks that balance innovation\nwith enforceable rights and accountability.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "ai-talent-competitiveness-and-attraction": [
+    {
+      "id": "390",
+      "text": "We should attract experts. China is spending billions to attract Chinese who studied abroad by giving incentives. So investments is important. \n\nThen the second point is about environment, infrastructure, and flexibility. Even if you pay 500,000$ a year for an expert with PhD, if the expert has no tools to use and do research, that person will very soon leave the country. We are in an era of sovereign AI war let by US and China. Being on top 5 is very important and human resources and infrastructure are important. Without infrastructure, experts will not come to Canada. \n\nWe should use our ren",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6.0
+    },
+    {
+      "id": "1302",
+      "text": "To attract, develop, and retain top AI talent, Canada needs a multi-pronged strategy focused on competitive appeal and clear purpose.\n\nAttract: Create \"Global AI Talent Visas\" and aggressively recruit through international campaigns. Fund globally competitive research chairs and startup packages that rival top global offers.\n\nDevelop: Revolutionize education by embedding AI across all disciplines (e.g., AI + Law, AI + Biology). Expand industry co-ops and national upskilling programs for the public sector to build a deep, versatile talent pool.\n\nRetain: Foster a dynamic ecosystem where talent c",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 6.0
+    },
+    {
+      "id": "2095",
+      "text": "Good pay and working conditions, positioned as ethical government rather than consumer focused ai, you'll attract the best people who are interested in doing good rather than jumping on a fad and gwtting rich quick.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 6.0
+    },
+    {
+      "id": "2200",
+      "text": "I'm not sure this is the right question... only a few years ago the question was \"should we retain / grow AI\" given all the risks.  Now it just seems that everyone is racing towards the AI goal but correct safety protocols have yet to be put in place.  Step one, understand the risks, step two takes steps to mitigate those risks.  Then look at this question again.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6.0
+    },
+    {
+      "id": "2201",
+      "text": "Like my previous response I'm going to say the same thing... \n\nI'm not sure this is the right question... only a few years ago the question was \"should we retain / grow AI\" given all the risks.  Now it just seems that everyone is racing towards the AI goal but correct safety protocols have yet to be put in place.  Step one, understand the risks, step two takes steps to mitigate those risks.  Then look at this question again.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6.0
+    }
+  ],
+  "ai-trustworthiness-and-transparency": [
+    {
+      "id": "19092",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "19403",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "54388",
+      "text": "Again, the current state of LLMs/GenAI is that the products are not trustworthy. The companies making them are not trustworthy. The data they are based off is unvetted and clearly biased. \n\nThe application for this technology is in narrow specific areas with those using it having the expertise to evaluate what it produces.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "11348",
+      "text": "There are no trustworthy or responsibly deployed AI products. Such a thing is impossible by the very nature of the product.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "11619",
+      "text": "AI products will never be trustworthy, the only way is to force it and lie",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 3.0
+    }
+  ],
+  "broadband-access-gaps": [
+    {
+      "id": "17909",
+      "text": "We're huge. We're XXXing giant and infrastructure is just difficult. My great-aunt in Hubbard, SK, didn't have internet until I think 2014? We're spread out and big and have such varied landscape; it's hard. Again, until electricity and internet are met, it's going to be hard to address the rest - unless your plan is \"loads of AI for Toronto, Montreal, Calgary, and Vancouver, and let's just call that all of Canada.\"\n\nIf that is your plan, then the answer is \"money\". As I'm at risk of over-repeating: if we spent our entire GDP on…",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "47259",
+      "text": "Broadband Internet access is still not available in many rural and remote communities in Canada.  Public libraries help bridge the current digital divide by providing public computers/laptops, and free Wi-Fi, but more could be done with federal investment.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "AB",
+      "score": 6.0
+    },
+    {
+      "id": "21914",
+      "text": "LOL, LMAO. We can't even do equitable rural internet",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 3.0
+    },
+    {
+      "id": "56754",
+      "text": "Broadband is still lacking in some rural communities. The gap has been reduced a bit over the last 5 years but a bit more money is needed to get there (a few billions).",
+      "sentiment": "concerned",
+      "salience": "secondary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 2.0
+    }
+  ],
+  "canada-ai-talent-research-strategy": [
+    {
+      "id": "3514",
+      "text": "I work for Microsoft and manage the security operations for all of azure database and based of Vancouver \n\nCreate tax incentive for AI / Tech sector companies to heir and operate in Canada - Currently large volume of tech graduates are going down south to USA for better pay/ Job opportunities  - we are not doing enough to retain the talent we create.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    },
+    {
+      "id": "3515",
+      "text": "I work for Microsoft and manage the security operations for all of azure database and based of Vancouver \n\nCreate tax incentive for AI / Tech sector companies to heir and operate in Canada - Currently large volume of tech graduates are going down south to USA for better pay/ Job opportunities  - we are not doing enough to retain the talent we create.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    },
+    {
+      "id": "3516",
+      "text": "I work for Microsoft and manage the security operations for all of azure database and based of Vancouver \n\nCreate tax incentive for AI / Tech sector companies to heir and operate in Canada - Currently large volume of tech graduates are going down south to USA for better pay/ Job opportunities  - we are not doing enough to retain the talent we create.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    },
+    {
+      "id": "3517",
+      "text": "I work for Microsoft and manage the security operations for all of azure database and based of Vancouver \n\nCreate tax incentive for AI / Tech sector companies to heir and operate in Canada - Currently large volume of tech graduates are going down south to USA for better pay/ Job opportunities  - we are not doing enough to retain the talent we create.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    }
+  ],
+  "canadian-ai-ecosystem-and-growth": [
+    {
+      "id": "5347",
+      "text": "Abandon it, as quickly as possible, and re-invest the money elsewhere before it's too late. AI as it exists in it's current state is snake oil being peddled by con artists in order to bilk investors out of their money before the bubble bursts. Already there are signs that the bubble is about to pop, and when it does, so many industries and governments have invested so much money into it that the economic damage it will inflict will be massive. The best way for Canada to get an edge is to get out of it, to pull all funding ASAP and instead dedicate that funding to preparing and minimizing the d",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "838",
+      "text": "Our current system of overly hierarchical structures and approvals to climb that seems reminiscent of the failures of academia. We need to be able to compete competitions for children for science and computing. Let's put more money into the system as prizes for events people are learning that are also technologies that could be shared - especially when it's to Canadian citizens.",
+      "sentiment": "supportive",
+      "salience": "secondary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 4.0
+    },
+    {
+      "id": "4295",
+      "text": "Build AI infrastructure and research and attract AI investment and companies",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 3.0
+    },
+    {
+      "id": "4296",
+      "text": "Build AI infrastructure and research and attract AI investment and companies",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 3.0
+    },
+    {
+      "id": "4297",
+      "text": "Build AI infrastructure and research and attract AI investment and companies",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 3.0
+    }
+  ],
+  "canadian-ai-infrastructure-investment": [
+    {
+      "id": "2298",
+      "text": "Canada needs world-Class Infrastructure. High-Performance Compute & Cloud Access: Continued investment in sovereign, high-capacity compute infrastructure (e.g., HPC clusters, edge compute, secure cloud) to ensure Canadian researchers are not dependent on foreign providers. Data Access & Stewardship: Develop shared, high-quality datasets across sectors — health, environment, defense, industry — with strict privacy and security standards to enable both foundational and applied research. Finally, secure testbeds: Establish federated testbeds for sensitive applications (healthcare, defense, critic",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "AB",
+      "score": 6.0
+    },
+    {
+      "id": "3950",
+      "text": "Canada retains and grows its AI research edge by investing in world-class research talent, robust sovereign compute infrastructure, and collaborative innovation hubs. Canada should lead in responsible and safe AI, health and biomedical AI, climate and sustainability solutions, generative AI, and deep learning while advancing commercialization to ensure homegrown breakthroughs translate into economic growth. Strategic decisions should balance foundational research with rapid practical adoption, scale Canadian champions, build public trust in ethical AI, and prioritize domains where Canada has s",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4769",
+      "text": "A long-term edge which would be Artic Data Servers.\nArtic Data Servers are also naturally green-efficient and overall efficient.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "AB",
+      "score": 6.0
+    },
+    {
+      "id": "4800",
+      "text": "AI leadership depends on more than algorithms: it depends on compute, and compute depends on energy, infrastructure, and minerals.\n\nCanada’s comparative advantage is not just academic talent, it’s that we can build sustainable, sovereign AI infrastructure powered by clean energy, stable governance, and abundant natural resources. Compute requires energy, cooling, and land. Canada has these in abundance, and a track record of managing them responsibly.\n\nWe should:\n\nInvest aggressively in clean-energy data centers — hydro, geothermal, and even small modular nuclear — to power domestic AI researc",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "4802",
+      "text": "Canada’s AI competitiveness depends on sovereign capacity, trusted governance, and values-based innovation. To remain globally competitive, Canada must ensure that core AI infrastructure: -- compute, data storage, and model training -- resides within trusted national or allied jurisdictions. Our traditional allies, may no longer be all classified as 'Trusted' sadly.\n\nAutonomy from untrusted partners protects national security, intellectual property, and ethical integrity. If we invest in sovereign compute and secure cloud ecosystems that is governed by Canadian law and powered by Canadian clea",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    }
+  ],
+  "compute-and-connectivity-infrastructure": [
+    {
+      "id": "9062",
+      "text": "Gaps across the stack\n\nCompute: scarce high-bandwidth GPU clusters; limited sovereign (Canada-resident) capacity with strong privacy/security postures; long lead times for power, cooling, and interconnect.\n\nData: fragmented custodian models (health, mobility, environment); uneven data quality/lineage; few production-grade shared corpora and evaluation sets; limited secure data enclaves for cross-org analysis.\n\nConnectivity: rural/remote last-mile gaps; uneven access to regional Internet exchange",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "NS",
+      "score": 9.0
+    },
+    {
+      "id": "22347",
+      "text": "The gaps we see most often\n\t•\tCompute\nScarcity of affordable GPU time for training and fine tuning. Queue times and price volatility. Limited access to validation and red-teaming environments.\n\t•\tData\nFragmented operational data in legacy ERPs and line-of-business apps. Few domain data trusts for health, construction, agriculture, marine, and energy. Weak data lineage, consent, and retention controls.\n\t•\tConnectivity\nRural and industrial dead zones that block telemetry, edge inference, and remote supervision. Inconsistent last-mile reliability for clinics, plants, sites, and ports.\n\nWhy sovere",
       "sentiment": "concerned",
       "salience": "primary",
       "depth": "evidence-based",
       "respondentType": "Organization",
-      "province": "QC",
-      "score": 9
+      "province": "NB",
+      "score": 9.0
     },
     {
-      "id": "pub-082",
-      "text": "We need regulatory certainty more than we need perfect regulation. The current uncertainty is worse for innovation than a clear-but-imperfect framework would be.",
-      "sentiment": "supportive",
+      "id": "40747",
+      "text": "The gaps:\n\nCompute: not enough affordable, Canadian-controlled GPU time; long queues; spotty access for SMEs and applied researchers.\nData: high-trust, consented datasets are scattered; few secure “clean rooms” for health, cities, energy, defense.\nConnectivity & power: rural/remote bandwidth is thin; power + cooling for new data centres are slow to permit and connect.\n\nWhy firms aren’t building sovereign infra (truth serum):\n\nCapex shock: billions up front with unclear offtake (who buys, at what price, for how long).\nProcurement fog: pilots rarely turn into long contracts; banks won’t finance ",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "58079",
+      "text": "The compute gap is driven by scarce GPUs and TPUs, long lead times, high power needs, and limited anchor demand to underwrite new builds. Data is trapped across silos with privacy and liability concerns, which slows creation of high-quality, domain-specific datasets. Connectivity gaps persist in rural and industrial corridors that need reliable bandwidth and edge capacity. What stops firms from building sovereign infrastructure is simple economics: massive upfront capex, uncertain utilization, energy and permitting hurdles, and a small home market that makes long payback risky without public o",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "3258",
+      "text": "Canada’s AI infrastructure gap spans compute, data, and connectivity. National high-performance compute remains far below peer nations, pushing researchers and firms to foreign clouds and raising sovereignty, cost, and continuity risks. Sensitive and high-value datasets are fragmented across provinces and institutions, with uneven standards and limited secure “clean-room” access to train and evaluate models. Connectivity is still inconsistent in rural, remote, and Northern communities, limiting participation in data-intensive work and cloud services.\n\nCanadian firms aren’t simply “building our",
+      "sentiment": "concerned",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Organization",
-      "province": "AB",
-      "score": 6
+      "province": "ON",
+      "score": 6.0
     }
   ],
-  "workforce-reskilling-transition": [
+  "critical-infrastructure-protection-standards": [
     {
-      "id": "pub-090",
-      "text": "The EI and retraining system was not designed for AI-driven displacement. Workers displaced by automation need income support during retraining — not 45-week EI that runs out before a 2-year college program finishes.",
-      "sentiment": "concerned",
+      "id": "34429",
+      "text": "Strengthening Cybersecurity and Safeguarding Critical AI Infrastructure in CanadaIn the AI era, protecting critical infrastructure, sensitive data, and AI models requires a comprehensive cybersecurity approach.Policies and Programs:Canada must establish clear regulations mandating robust data protection, privacy, and security standards for AI systems, especially those managing critical infrastructure like energy grids, healthcare, and transportation. Regular security audits and certifications should be required to ensure compliance.Building Resilience into AI Systems:AI models must be designed",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "MB",
+      "score": 9.0
+    },
+    {
+      "id": "4135",
+      "text": "Canada should protect critical infrastructure, data, and AI models with simple, enforceable rules: encrypt by default, keep sensitive data in Canada, and require audits before deployment. We could build resilience into AI systems in the form of backup models, fail-safes, red-team testing, and rapid incident reporting) so that failures don’t take services down. And....we could collaborate with trusted allies to share threat, and new 'best practices'.",
+      "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Individual",
       "province": "ON",
-      "score": 6
+      "score": 6.0
     },
     {
-      "id": "pub-091",
-      "text": "Community colleges are the right delivery mechanism for AI literacy — not universities. They're more accessible, more affordable, and better connected to local labour markets.",
+      "id": "6025",
+      "text": "Treat AI like any other critical system - verify components, lock down identity and data paths, test models independently, practice failure. Diversify providers, keep keys and logs in Canada, give operators playbooks and kill-switches. Measure everything. That’s how Canada protects its infrastructure, data and models in the AI era.",
       "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "10112",
+      "text": "We face an intractable problem that we probably cannot win [Canadian sovereign infrastructure competing against larger infrastructure that will out compete us, and/or is not sufficiently comparable]. We need to focus on niche market applications and bespoke solutions that are under the radar of the bigger players.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "10113",
+      "text": "We face an intractable problem that we probably cannot win [Canadian sovereign infrastructure competing against larger infrastructure that will out compete us, and/or is not sufficiently comparable]. We need to focus on niche market applications and bespoke solutions that are under the radar of the bigger players.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    }
+  ],
+  "cross-sector-collaboration-and-innovation": [
+    {
+      "id": "1550",
+      "text": "Cross sector collaboration needs to be promoted. Canada has world-class universities and leading AI researchers, but stronger cross-sector collaboration is needed to fully unlock their potential. While academic excellence is abundant, industry often struggles to engage effectively with researchers, and government and defence sectors face barriers in translating innovation into operational impact. Canada should invest in structured coordination mechanisms that bridge these gaps. Not all companies can afford or know that they can partner with universities or AI centers.\nThis could include creati",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "2669",
+      "text": "Cross-sector collaboration -> Build on CIFAR-NRC-AI institutes framework with formal Cross-Sectoral Solution Networks. Expand AI Centre of Excellence beyond government to coordinate all sectors. Create regional AI councils with academia-industry-defense representation. \nPublic-Private Integration -> Use sovereign compute infrastructure as shared hubs protecting IP. Scale proven supercluster model. Leverage strategic procurement to drive Canadian AI adoption. \nAcademic independence -> Maintain clear IP frameworks—universities keep fundamental research rights, industry partnerships via separate ",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "3875",
+      "text": "Canada has world-class AI researchers, innovative companies, and important public needs, but too often they work in silos. This can be accelerated impact by creating clear, trusted pathways for ideas, people, and IP to move across sectors, without sacrificing academic freedom or the public interest. The key is building around shared missions, common infrastructure, and transparent rules everyone can work with. Right now, collaboration is slow. Academics wait months for contract approvals. Companies can't access the data or compute they need. Government departments run parallel pilots that neve",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "4827",
+      "text": "Canada can accelerate AI impact by creating national innovation hubs connecting academia, industry, government, and defence. Shared data, computing resources, and testbeds enable joint projects, while industry-sponsored research with protected academic independence ensures innovation and openness. Grants, incentives, and advisory councils guide priorities, foster collaboration, and maximize the value of cross-sector research.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4944",
+      "text": "Canada can strengthen coordination by creating shared AI research hubs and collaborative frameworks that connect universities, industry, government, and defence. Clear data-sharing agreements, joint funding programs, and ethical standards can align priorities, reduce duplication, and accelerate AI research with real-world impact.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    }
+  ],
+  "data-and-connectivity-gaps": [
+    {
+      "id": "7880",
+      "text": "The main infrastructure gaps restricting AI innovation in Canada are limited compute power (especially for large models), insufficient secure data centres, and spotty, uneven connectivity—especially in remote and rural regions. Canadian firms face high upfront investment costs and risk, regulatory complexity, and limited domestic funding, which block sovereign infrastructure growth. Government must derisk investment, provide direct funding, and streamline regulation to promote industry developme",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "32465",
+      "text": "Canada’s AI innovation is limited by gaps in compute power, data availability, and connectivity. High-performance computing resources are concentrated in a few hubs, making access expensive and slow for many startups and researchers. Data is often siloed, fragmented, or constrained by privacy rules, limiting training and validation of AI models. Connectivity challenges, particularly in rural and remote areas, reduce the ability to collaborate, share large datasets, and deploy AI solutions broadly.\n\nBuilding sovereign infrastructure is challenging due to high capital costs, ongoing maintenance,",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "OU",
+      "score": 9.0
+    },
+    {
+      "id": "33389",
+      "text": "Canada’s AI innovation is constrained by gaps in compute, data, and connectivity, which limit experimentation, scale, and competitiveness. Addressing these gaps requires coordinated investment, risk mitigation, and strategic partnerships.\n\n1. Compute infrastructure: High-performance compute (HPC) and GPU clusters are critical for training advanced AI models. Many Canadian startups rely on foreign cloud providers due to the cost and complexity of building domestic HPC infrastructure. The high capital expenditure and ongoing operational costs discourage sovereign infrastructure development.\n\n2. ",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "35766",
+      "text": "Canada’s AI infrastructure gaps fall into three buckets. Compute: affordable, burstable GPU capacity is scarce; queues are long; access for SMEs is limited; there’s insufficient edge compute for latency-sensitive use; trusted execution and compliance-ready hosting are uneven across provinces; and power availability plus cooling and grid interconnects constrain new data centres. Data: few sector-wide schemas and high-quality labeled datasets; fragmented custodianship and inconsistent consent frameworks; limited privacy-preserving sharing (synthetic data, federated learning); weak lineage and be",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "35823",
+      "text": "Canada faces critical infrastructure gaps in compute power, data availability, and connectivity that hinder AI innovation. Limited domestic access to high-performance computing resources and sovereign cloud platforms restricts startups and researchers from scaling AI workloads competitively. Fragmented data ecosystems and barriers to secure data sharing further slow AI development, while uneven broadband and 5G coverage—especially in rural and Indigenous communities—limit connectivity and inclusive participation.\n\nCanadian firms hesitate to build sovereign AI infrastructure due to high upfront",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "OU",
+      "score": 9.0
+    }
+  ],
+  "data-security-and-stability-risks": [
+    {
+      "id": "44451",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44452",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44453",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44513",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44514",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "environmental-and-ethical-concerns": [
+    {
+      "id": "11310",
+      "text": "AI requires huge data centers that require a ton of water to to cool. We shouldn't use AI so we don't have to spend money on building massive data centers and wasting fresh water resources",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "11623",
+      "text": "Canada should not use generative AI because the infrastructure destroys communities by polluting the water table.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 6.0
+    },
+    {
+      "id": "11670",
+      "text": "I don't know what this means. More than enough to drain our lakes and rivers of fresh water to cool the servers necessary for it to generate slop.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "16745",
+      "text": "XXX AI. AI is ravaging the environment whilst making everyone redundant, particularly entry level jobs in many industries, which will create a brain drain in an aging skilled worker population. I will vote for whichever party platforms against AI in the next election.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "16746",
+      "text": "XXX AI. AI is ravaging the environment whilst making everyone redundant, particularly entry level jobs in many industries, which will create a brain drain in an aging skilled worker population. I will vote for whichever party platforms against AI in the next election.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    }
+  ],
+  "environmental-and-ethical-concerns-around-ai": [
+    {
+      "id": "12243",
+      "text": "I am against AI in principle and in practice.\n\n\"AI\" usage has been shown to affect the way people use their brain. https://www.media.mit.edu/publications/your-brain-on-chatgpt/\n\nData centers use an inordinate amount of energy and water and other necessary natural resources. https://andthewest.stanford.edu/2025/thirsty-for-power-and-water-ai-crunching-data-centers-sprout-across-the-west/\n\nI also object vehemently the fact that training \"AI\" requires the theft of text, visual, and audio art, as well as people's identity and personhood. \"AI\" is currently used for observation and extraction of per",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 9.0
+    },
+    {
+      "id": "12244",
+      "text": "I am against AI in principle and in practice.\n\n\"AI\" usage has been shown to affect the way people use their brain. https://www.media.mit.edu/publications/your-brain-on-chatgpt/\n\nData centers use an inordinate amount of energy and water and other necessary natural resources. https://andthewest.stanford.edu/2025/thirsty-for-power-and-water-ai-crunching-data-centers-sprout-across-the-west/\n\nI also object vehemently the fact that training \"AI\" requires the theft of text, visual, and audio art, as well as people's identity and personhood. \"AI\" is currently used for observation and extraction of per",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 9.0
+    },
+    {
+      "id": "12245",
+      "text": "I am against AI in principle and in practice.\n\n\"AI\" usage has been shown to affect the way people use their brain. https://www.media.mit.edu/publications/your-brain-on-chatgpt/\n\nData centers use an inordinate amount of energy and water and other necessary natural resources. https://andthewest.stanford.edu/2025/thirsty-for-power-and-water-ai-crunching-data-centers-sprout-across-the-west/\n\nI also object vehemently the fact that training \"AI\" requires the theft of text, visual, and audio art, as well as people's identity and personhood. \"AI\" is currently used for observation and extraction of per",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 9.0
+    },
+    {
+      "id": "43896",
+      "text": "AI literacy would be to explain how chatbots like ChatGPT are actively making you lose critical thinking skills, how AI is polluting the environment and that there are already cities where citizens that are being forced to live next to Grok factories are getting sick and unable to breathe through toxic fumes, how AI has been used in warfare such as the Lavender AI program which takes all human oversight out of war and automates it, and how what we are calling AI isn't actual AI but just marketing. That would be honest AI literacy.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "42356",
+      "text": "En tout honnêté, l’AI est horrible pour l’environnement et vole des donnés de vrai recherche et arts sur les internets, nous devons absolument pas faire de recherche sur le AI.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 3.0
+    }
+  ],
+  "environmental-and-labor-concerns": [
+    {
+      "id": "36978",
+      "text": "Canada should not invest in AI research, it is an environmentally destructive technology that is of at best dubious (and likely worthless) value, and is currently the source of a dangerous economic bubble that is on the verge of popping\n\nI will never trust in generative AI technologies, the risks are simply too high and the benefits negligible. The government of canada investing in AI would only cause me to lose even more trust in this spineless government",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "40028",
+      "text": "We can't, nor should we. That would require lying to the Canadian people that this technology is actually usefully and not, as this question admits, a risk. A risk to the environment, to jobs, to the economy, and to the education and information structure of not just Canada but the entire world.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "46805",
+      "text": "AI technologies should not be touted as a panacea solution for all labour needs. AI needs to be developed in an ethical and climate-conscious way. We need to be strategic and selective about how we work with AI and what data we allow it to have. I am extremely concerned about the environmental impacts of AI (specifically around it's energy and water utilization). I am also concerned about the role of AI in spreading falsehoods, eroding democracy, and damaging our abilities to learn and think critically. There needs to be a strong regulatory framework in place that ensures AI is developed with ",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "54712",
+      "text": "we can't until we can do it without mass theft and poisoning the environment",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "54713",
+      "text": "we can't until we can do it without mass theft and poisoning the environment",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "environmental-concerns-for-ai": [
+    {
+      "id": "6497",
+      "text": "The lack of any recognition of the destructive environmental impacts of that infrastructure. Creating a green digital economy may lead to increased uptake in AI",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "19045",
+      "text": "Do not support AI. It's terrible for the environment and has been proven to be bad for humans as well. The information it gives out is not even true. It's a wasteful hallucination machine.\n\nIT IS TRAINED ON THEFT",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6.0
+    },
+    {
+      "id": "19046",
+      "text": "Do not support AI. It's terrible for the environment and has been proven to be bad for humans as well. The information it gives out is not even true. It's a wasteful hallucination machine.\n\nIT IS TRAINED ON THEFT",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6.0
+    },
+    {
+      "id": "19047",
+      "text": "Do not support AI. It's terrible for the environment and has been proven to be bad for humans as well. The information it gives out is not even true. It's a wasteful hallucination machine.\n\nIT IS TRAINED ON THEFT",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "QC",
+      "score": 6.0
+    },
+    {
+      "id": "25752",
+      "text": "Canada should quit while it's ahead and stop relying on AI. For a country that uses its national forests as tourism talking points, why develop a technology that will actively destroy it? So-called AI is actively making the country's citizens more susceptible to manipulation; there have been multiple cases of persons harming themselves and/or others because LLMs like chatGPT or other websites fed into their delusions. Why would the government promote something that not only harms the environment, but can cause great harm to the citizens of that country?\n\nAlso, did an AI write these questions? ",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    }
+  ],
+  "equitable-access-to-ai-resources": [
+    {
+      "id": "4236",
+      "text": "To ensure fair access to AI literacy, Canada must listen to underserved groups about barriers.\nInvest in libraries, schools, and town halls as learning hubs. Protect access by requiring industry\nco-funding, and enshrine Consent, Compensation, and Control in all programs. Equitable access\nmeans that rural, racialized, Indigenous, and low-income communities have equal opportunities to\nlearn and lead in the AI era.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4260",
+      "text": "To ensure fair access to AI literacy, Canada must listen to underserved groups about barriers. Invest in libraries, schools, and town halls as learning hubs. Protect access by requiring industry co-funding, and enshrine Consent, Compensation, and Control in all programs. Equitable access means that rural and low-income communities have equal opportunities to learn and lead in the AI era.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4479",
+      "text": "To ensure fair access to AI literacy, Canada must listen to underserved groups about barriers. \nInvest in libraries, schools, and town halls as learning hubs. Protect access by requiring industry \nco-funding, and enshrine Consent, Compensation, and Control in all programs. Equitable access \nmeans that rural, racialized, Indigenous, and low-income communities have equal opportunities to \nlearn and lead in the AI era.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4491",
+      "text": "To ensure fair access to AI literacy, Canada must listen to underserved groups about barriers.\nInvest in libraries, schools, and town halls as learning hubs. Protect access by requiring industry\nco-funding, and enshrine Consent, Compensation, and Control in all programs. Equitable access\nmeans that rural, racialized, Indigenous, and low-income communities have equal opportunities to\nlearn and lead in the AI era.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4513",
+      "text": "To ensure fair access to AI literacy, Canada must listen to underserved groups about barriers.\nInvest in libraries, schools, and town halls as learning hubs. Protect access by requiring industry\nco-funding, and enshrine Consent, Compensation, and Control in all programs. Equitable access\nmeans that rural, racialized, Indigenous, and low-income communities have equal opportunities to\nlearn and lead in the AI era.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "ethics-and-environmental-concerns": [
+    {
+      "id": "30519",
+      "text": "These questions are leading and, therefore, unscientific.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    },
+    {
+      "id": "30520",
+      "text": "These questions are leading and, therefore, unscientific.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    },
+    {
+      "id": "30521",
+      "text": "These questions are leading and, therefore, unscientific.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    },
+    {
+      "id": "30522",
+      "text": "These questions are leading and, therefore, unscientific.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    },
+    {
+      "id": "30523",
+      "text": "These questions are leading and, therefore, unscientific.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 3.0
+    }
+  ],
+  "general-opposition-to-ai": [
+    {
+      "id": "27505",
+      "text": "A pointless question. Canadians and Canadian businesses don't need AI infrastructure of any kind. The government should be divesting of all AI investment and technology before more data leaks happen. You are putting people at risk.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "16672",
+      "text": "There should be no AI infrastructure. Period.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "16846",
+      "text": "The best equality is to not institute AI.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "17295",
+      "text": "We shouldn't be trying to engage any more with AI at all.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NL",
+      "score": 3.0
+    },
+    {
+      "id": "18472",
+      "text": "Just don’t. Let Canada be an AI-free haven.",
+      "sentiment": "opposed",
       "salience": "primary",
       "depth": "assertion",
       "respondentType": "Individual",
       "province": "BC",
-      "score": 3
+      "score": 3.0
+    }
+  ],
+  "generative-ai-risks-and-harms": [
+    {
+      "id": "19099",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
     },
     {
-      "id": "pub-092",
-      "text": "Employer-led reskilling programs need government co-investment. The Upskilling for Industry Initiative is a model — expand it with a specific AI track.",
+      "id": "19100",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "19101",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "19258",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "19259",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    }
+  ],
+  "generative-ai-safety-risks": [
+    {
+      "id": "11041",
+      "text": "AI technology fundamentally cannot be trusted; it is unethical and environmentally dangerous. Any efforts made to explain the technology should explain the dangers inherent to it, and to protect Canadians from it. The only responsible way to use AI is to avoid using it altogether.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NB",
+      "score": 6.0
+    },
+    {
+      "id": "19090",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "19091",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "19249",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "19250",
+      "text": "Do not support generative AI. It has horrible repercussions on both the environment and humankind's ability to think critically. The information it provides is incorrect a majority of the time, and this is a statistic that is only getting worse as AI databases keep learning off of their own false data, effectively cannibalizing itself. Furthermore, it is trained on theft, as the content and information these databases are trained off of were not provided consensually. Generative AI is nothing more than a wasteful, unethical, misinformation-spreading device that has no place in any self-respect",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    }
+  ],
+  "human-centered-ai-research-and-development": [
+    {
+      "id": "8305",
+      "text": "Canada can lead the world in Explainable AI, including Rules as Code and Hybrid (Neuro-Symbolic) AI. True explainability (as opposed to a token prediction-based \"good guess\") is important in many high-stakes domains, including law, where understanding the exact reasoning process behind a decision is often critical. Generative AI, including RAG and Chain-of-Thought, is a fundamentally limited paradigm that will not achieve AI explainability on its own. See for example:\nFazel Barez et al., \"Chain-of-Thought Is Not Explainability\" (which calls for scientific progress in the area of truly explaina",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "8306",
+      "text": "Canada can lead the world in Explainable AI, including Rules as Code and Hybrid (Neuro-Symbolic) AI. True explainability (as opposed to a token prediction-based \"good guess\") is important in many high-stakes domains, including law, where understanding the exact reasoning process behind a decision is often critical. Generative AI, including RAG and Chain-of-Thought, is a fundamentally limited paradigm that will not achieve AI explainability on its own. See for example:\nFazel Barez et al., \"Chain-of-Thought Is Not Explainability\" (which calls for scientific progress in the area of truly explaina",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "2668",
+      "text": "Compete in healthcare AI, climate solutions, and ethical AI frameworks where Canada has established research leadership and moral authority. The country should double down on these areas where its unique combination of talent, values, and geographic challenges create natural advantages. Collaborate on fundamental research through expanded international partnerships while maintaining sovereign capabilities. Canada's approach of working with global meteorological services and private enterprises demonstrates effective collaboration models that preserve Canadian leadership.Defer in areas requirin",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "4492",
+      "text": "It must focus on development, understanding and adoption. Today, the race is for breakthrough research, which is critical, but without building an understanding of how AI supports \"my\" business or institution, and how it will augment my human ingenuity (HI), it will fail. It needs to be founded on understanding the types of thinking required to resolve a challenge — binary, cognitive, emotional, and gut — and which ones can be performed by a human and which by a machine.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "4493",
+      "text": "Again, without an understanding of how AI and human ingenuity (HI) can work together, any efforts at collaboration will be misguided. Again, it needs to be founded on understanding the types of thinking required to resolve a challenge — binary, cognitive, emotional, and gut — and which ones can be performed by a human and which by a machine.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": null,
+      "score": 6.0
+    }
+  ],
+  "inclusive-ai-literacy-and-education": [
+    {
+      "id": "22346",
+      "text": "Access principles\n\t•\tLearning should be local, job relevant, and available in short modules that do not require leaving work or caregiving for long periods.\n\t•\tMaterials should be bilingual where appropriate and accessible by mobile with low bandwidth options.\n\t•\tPrograms should include targeted supports for Indigenous communities, newcomers, rural learners, and people with disabilities.\n\nHow to operationalize\n\t•\tRegional learning hubs\nUse colleges, libraries, and community centers as delivery points. In Atlantic Canada, pair universities with TechImpact, sector councils, and local chambers.\n\t",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "NB",
+      "score": 9.0
+    },
+    {
+      "id": "45227",
+      "text": "Over 16,000 people attend technology programs at public libraries every month. We offer social spaces and infrastructure for community gathering, learning, and debating, and are a cornerstone of Canada's democracy. Public libraries are positioned to host discussions on topics such as AI and Ethics, service as spaces where diverse voices contribute to AI development and use that reflects Canadian values. We have been at the forefront of delivering digital literacy training and AI is no different. Additionally, public libraries are known for their reach across multiple demographics including chi",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "2690",
+      "text": "Canada can ensure equitable access to AI literacy by investing in nationwide programs that reach rural, remote, and underserved communities, while tailoring resources for diverse demographics and socioeconomic groups. Public funding, digital infrastructure, and partnerships with schools, libraries, and nonprofits are essential. For AI Future Leaders, delivering accessible K–12 and educator training embeds ethics, safety, and skills equitably, preparing all learners to thrive in the AI era.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4235",
+      "text": "To enhance AI literacy in Canada, governments should engage unions and communities in\nidentifying risks and needs of workers. Invest in workplace training, short courses (e.g., micro-\ncredentials), and public campaigns that explain how AI works, where it can go wrong, and its\nbenefits. Literacy empowers all workers to use AI confidently, effectively, and challenge AI when it’s\nused in ways that undermine fairness.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4259",
+      "text": "To enhance AI literacy in Canada, governments should engage unions and communities in\nidentifying risks and needs of workers. Invest in workplace training, short courses (e.g., micro-\ncredentials), and public campaigns that explain how AI works, where it can go wrong, and its\nbenefits. Literacy empowers all workers to use AI confidently, effectively, and challenge AI when it’s\nused in ways that undermine fairness.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "inclusive-ai-workforce-development-and-diversity": [
+    {
+      "id": "98",
+      "text": "We need to re-skill our current population, the youngest generation will pick-it-up the fastest. We should look to collaborate with China as they are far ahead of Canada in machine learning and applied machine learning in robotics.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "508",
+      "text": "AI will reshape entry-level or high risk work by automating repetitive or dangerous tasks.  It can enhance efficiency by handling routine work, allowing entry-level employees or safety professionals to focus on more complex tasks, critical thinking, and problem-solving. However, this also means developing new skills and standards in areas like AI-assisted workflows, data analysis, and human-AI collaboration. The increased reliance will potentially reduce opportunities for face-to-face communication that require adjustments, read as Standards, to how people interact with both colleagues and AI ",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "1152",
+      "text": "We need to focus on diversity and not hire any people of privilege",
       "sentiment": "supportive",
       "salience": "secondary",
-      "depth": "reasoned",
-      "respondentType": "Organization",
-      "province": "AB",
-      "score": 4
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": null,
+      "score": 2.0
     }
   ],
-  "critical-infrastructure-protection": [
+  "infrastructure-necessity-for-ai": [
     {
-      "id": "pub-100",
-      "text": "AI systems embedded in power grids, financial markets, and healthcare are critical infrastructure. We need the same security standards applied to these AI systems as we apply to the infrastructure itself.",
+      "id": "17848",
+      "text": "None if you do the right thing and just dont use Ai.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 3.0
+    },
+    {
+      "id": "22556",
+      "text": "In it's current incarnation, we need none.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "22660",
+      "text": "Zero. You guys are insane and asking the wrong questions.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 3.0
+    },
+    {
+      "id": "36395",
+      "text": "Don't bother with it. We don't need AI infrastructure.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "36396",
+      "text": "None. We don't need any for security or growth.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    }
+  ],
+  "market-driven-infrastructure-development": [
+    {
+      "id": "45422",
+      "text": "It’s time to stop shoveling millions of taxpayer dollars into the bottomless pit of pseudo‑excellence programs like CERC—schemes that masquerade as innovation drivers while functioning as prestige‑laundering machines for bureaucrats and over‑credentialed careerists. These initiatives, once framed as engines of discovery, have devolved into bloated showcases of mediocrity: glossy press releases, ceremonial appointments, and vanity metrics substituting for actual scientific work.\nPublic funding should fuel discovery, not decorate CVs. Real innovation grows from laboratories and codebases, not fr",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "45423",
+      "text": "It’s time to stop shoveling millions of taxpayer dollars into the bottomless pit of pseudo‑excellence programs like CERC—schemes that masquerade as innovation drivers while functioning as prestige‑laundering machines for bureaucrats and over‑credentialed careerists. These initiatives, once framed as engines of discovery, have devolved into bloated showcases of mediocrity: glossy press releases, ceremonial appointments, and vanity metrics substituting for actual scientific work.\nPublic funding should fuel discovery, not decorate CVs. Real innovation grows from laboratories and codebases, not fr",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "45424",
+      "text": "It’s time to stop shoveling millions of taxpayer dollars into the bottomless pit of pseudo‑excellence programs like CERC—schemes that masquerade as innovation drivers while functioning as prestige‑laundering machines for bureaucrats and over‑credentialed careerists. These initiatives, once framed as engines of discovery, have devolved into bloated showcases of mediocrity: glossy press releases, ceremonial appointments, and vanity metrics substituting for actual scientific work.\nPublic funding should fuel discovery, not decorate CVs. Real innovation grows from laboratories and codebases, not fr",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "4199",
+      "text": "That's really something for the market to figure out; the government doesn't need to play a role here unless there are specific market failures being observed (eg. monopoly or anticompetitive behaviour).",
+      "sentiment": "neutral",
+      "salience": "secondary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 4.0
+    },
+    {
+      "id": "11293",
+      "text": "Nothing. If people don’t want them, they won’t build them. Don’t force it. Don’t waste money funding any.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 3.0
+    }
+  ],
+  "national-security-and-ai": [
+    {
+      "id": "32331",
+      "text": "Sovereign AI compute capacity will be essential for Canada's security and economic growth. To forecast the scale of infrastructure needed, both public and private sector demand must be considered. Governments will require significant compute power for applications in national security, healthcare, and climate research, while the private sector will demand resources to develop AI-driven solutions across industries. A mixed model of public and private collaboration, emphasized by investments in both high-performance computing and AI-specific infrastructure, will ensure Canada’s competitiveness. ",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "37511",
+      "text": "Canada’s long-term security and economic growth depend on developing robust sovereign AI compute capacity that can sustain innovation across sectors while protecting national data assets. For healthcare innovators like LabOnlineBooking (LOB) which leverages predictive analytics, patient flow optimization, and data-driven scheduling reliable and sovereign compute infrastructure is essential to support real-time processing of sensitive health data under Canadian jurisdiction. Current reliance on foreign cloud providers poses strategic risks in data privacy, pricing control, and access during glo",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "54774",
+      "text": "We need enough capacity to train Canadian-scale foundational models and securely process sensitive national data (e.g., health, defense). This must include public-sector HPC clusters for classified work and commercially competitive, Canadian-owned cloud-based capacity for industry and government use.",
       "sentiment": "supportive",
       "salience": "primary",
       "depth": "reasoned",
       "respondentType": "Organization",
       "province": "ON",
-      "score": 6
-    },
+      "score": 6.0
+    }
+  ],
+  "prioritizing-ai-adoption": [
     {
-      "id": "pub-101",
-      "text": "Canada is behind on AI security doctrine. Our adversaries — state and non-state — are already using AI offensively. We need a Canadian Centre for AI Security with actual operational capability.",
-      "sentiment": "concerned",
+      "id": "42731",
+      "text": "AI should only be used for monotonous tasks, or in which they are evaluating large quantities of data for a specific term or aspect. AI should not be used in any capacity that a human could fulfill. It is harmful to the environment and human skill. I do not think Canada should prioritise this issue.",
+      "sentiment": "opposed",
       "salience": "primary",
       "depth": "assertion",
       "respondentType": "Individual",
+      "province": "MB",
+      "score": 3.0
+    },
+    {
+      "id": "42732",
+      "text": "AI should only be used for monotonous tasks, or in which they are evaluating large quantities of data for a specific term or aspect. AI should not be used in any capacity that a human could fulfill. It is harmful to the environment and human skill. I do not think Canada should prioritise this issue.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 3.0
+    },
+    {
+      "id": "42733",
+      "text": "AI should only be used for monotonous tasks, or in which they are evaluating large quantities of data for a specific term or aspect. AI should not be used in any capacity that a human could fulfill. It is harmful to the environment and human skill. I do not think Canada should prioritise this issue.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 3.0
+    },
+    {
+      "id": "42734",
+      "text": "AI should only be used for monotonous tasks, or in which they are evaluating large quantities of data for a specific term or aspect. AI should not be used in any capacity that a human could fulfill. It is harmful to the environment and human skill. I do not think Canada should prioritise this issue.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 3.0
+    },
+    {
+      "id": "42735",
+      "text": "AI should only be used for monotonous tasks, or in which they are evaluating large quantities of data for a specific term or aspect. AI should not be used in any capacity that a human could fulfill. It is harmful to the environment and human skill. I do not think Canada should prioritise this issue.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 3.0
+    }
+  ],
+  "public-acceptance-of-ai-technology": [
+    {
+      "id": "31565",
+      "text": "Again, consider that there might not be a good way to use these technologies responsibly. You need to be open to the idea that it might not be possible, otherwise you do not deserve anybody's trust.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "OU",
+      "score": 6.0
+    },
+    {
+      "id": "11688",
+      "text": "You can't. Normal people have already rejected this scam tech, and you will look like fools if you attempt to push it on them.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Organization",
       "province": "BC",
-      "score": 3
+      "score": 3.0
+    },
+    {
+      "id": "12314",
+      "text": "No one likes it. You can't manufacture consent for garbage",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "SK",
+      "score": 3.0
+    },
+    {
+      "id": "17574",
+      "text": "We should not trust AI it does not have our best interests at heart",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    },
+    {
+      "id": "22197",
+      "text": "There is no such thing as responsible AI use. It's an enormous cost in resources to get wrong answers.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 3.0
+    }
+  ],
+  "public-awareness-and-literacy": [
+    {
+      "id": "16950",
+      "text": "Possibly an aggressive PSA campaign, but what AI does best is speed so adapting to whatever the “tells” are is an AI companies highest priority. Maybe it’s on the news, maybe it’s a commercial on tv, maybe it’s a flyer but people do need to hear about the dangers of AI, how to spot it, and why to avoid it.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "17755",
+      "text": "Let people know about the impact to jobs and the environment. Let them know that this technology is driving up their utility costs.  Let them know that their personal photos of their kids were fed into these things without asking permission. Let them know that it is not actual AI, did not think, cannot apply logic or distinguish between fact or fiction, and makes up fake facts and presents them as if they were true.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "17801",
+      "text": "Public awareness campaigns warning of AI’s very extensive limitations are important, to ensure business leaders and workers are not putting undue and ill-advised faith in AI over real, skilled people.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "18903",
+      "text": "PSAs. Please god more PSAs. I am tired of people thinking AI is sentient, or that AI generated content is real.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "19356",
+      "text": "Educate people about the dangers of AI. The bias in AI chatbots to regurgitate your words back to you. Caution them not to share personal information, such as psychological information, to AI. It is not a therapist. Keep children off AI chatbots and educate parents about the severe risks for children (socially, mentally). Share information about the intellectual harm of regular AI use. Treat it like you treat those drug awareness programs for high schoolers. People must be aware of the harm to the environment and their own brains.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "public-education-on-ai": [
+    {
+      "id": "2656",
+      "text": "communicate, AI is moving faster than the general public realizes. It' important to get ahead of the fears, ignorance and educate through appropriate mediums.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "7130",
+      "text": "You can’t.\n\nDon’t try to make people “trust” AI. Make people more aware of the realities of it. We need digital literacy.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "10941",
+      "text": "Canadians must be educated on the dangers of AI, how often the information AI presents is fabricated, how it fabricates that information, the way that models are trained, the resources that are involved in running their data centres and the way that AI is already having a noticeable effect on climate change.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "16540",
+      "text": "Canadians need to be educated about how stupid current AI systems really are, even the biggest AI compute clusters can't match a fruit fly.  Fruit flies can't be trusted beyond multiplying and being a pest, much like the current state of AI",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "19873",
+      "text": "You have to teach people about GenAI: what is it, how does it work, and how to use it. People have no idea - they'll ask ChatGPT a question it has no ability to answer correctly and take that as a fact. Teach people the difference between different AI types, too, so that they have an idea of how broad the term AI actually is.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    }
+  ],
+  "public-libraries-as-trust-institutions": [
+    {
+      "id": "44137",
+      "text": "Public libraries are uniquely positioned to engage citizens in promoting responsible AI use through their existing network of physical branches (generally open 7 days per week) as well as their Web-based online libraries available 24/7. As a trusted institution in the area of bridging the digital divide, libraries see 16,000 people attend technology learning sessions every month in Canada, and would be able to deliver AI education and bolster AI trust in a direct and accessible manner. We believe in the need for AI regulation in order to increase trust and take advantage of the opportunities t",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "44203",
+      "text": "As the CEO of Lethbridge Public Library, serving Lethbridge, Alberta, I am responding to highlight the essential role of public libraries in Canada's AI strategy.  The best strategy to proactively engage citizens and businesses and build trust is to utilize institutions where people already are and that are trusted. 16,000 people attend technology programs at public libraries every month in Canada. Canadians recognize public libraries as trusted, democratic institutions, and millions use their public library on a daily basis in our country.  Public libraires are constantly working to bridge th",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Organization",
+      "province": "AB",
+      "score": 9.0
+    },
+    {
+      "id": "40426",
+      "text": "Building public trust in AI technologies while addressing their inherent risks requires leveraging Canada's most reliable and trusted institutions. Confidence is not built solely through technological regulation, but through transparent, equitable education provided in neutral spaces.\nThe most important step is ensuring citizens have the necessary literacy expertise to engage with AI safely. Public libraries, which are consistently ranked among Canada's most trusted institutions, are uniquely positioned to meet this challenge. Libraries champion democracy, upholding intellectual freedom and th",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44136",
+      "text": "Canadians exhibit a low level of trust in AI and are concerned about its potential negative effects. Public libraries are uniquely positioned to deliver AI education and assistance to all members of the community in order to help them understand the incredible benefits of the technology as well as how to mitigate any potential downsides such as threats to privacy, cybersecurity, and intellectual property. Public libraries also believe in AI regulation that would help balance the competing interests, benefits, and effects of AI, and are well positioned to help the general public understand thei",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44202",
+      "text": "As the CEO of Lethbridge Public Library, serving Lethbridge, Alberta, I am responding to highlight the essential role of public libraries in Canada's AI strategy.  Public libraries believe in AI regulation which leverages the inherent benefits of the technology while attempting to mitigate the potential harms. We want to see AI regulations that reflects Canada’s values and bolsters our strong democracy.  Libraries are trusted institutions that are already conducting public AI education, we host safe spaces for exploration and learning, and fiercely protect privacy and the personal information ",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "AB",
+      "score": 6.0
+    }
+  ],
+  "regulatory-framework-for-ai": [
+    {
+      "id": "17277",
+      "text": "Establish a national AI assurance framework that every publicly funded or high-impact deployment must meet: independent algorithmic impact assessments, red-team testing, and approval by oversight boards that include Indigenous, civil society, worker, disability, and youth representatives. Align with UNDRIP and provincial privacy (FOIPPA), and require OCAP/CARE-based data governance wherever Indigenous data is involved. Mandate interoperable artifacts for all systems: model cards, data cards, safety cases, and energy/water disclosures in plain language; secure MLOps with audit logs, lineage, an",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": null,
+      "score": 6.0
+    },
+    {
+      "id": "24659",
+      "text": "Strengthen Open Source tech, data, and intel.\nPrivacy commissioners should reign supreme and hold a veto on deployment.\nIntelligent technology should face the same rigorous research, review and regulation as medical technology including pharmaceuticals and clinical practices.\nWe need very highly trained and skilled public servants who are absolutely beyond reproach in their separation from the commercial sector and who understand deeply the socio-cognitive effects of setting technology loose on the public, not just how to maximize cash flow to private interests.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "35610",
+      "text": "Canada needs a clear, enforceable framework that ensures AI products are safe, transparent, and aligned with Canadian values. Oversight should combine regulation, standards, and self-governance to balance innovation with protection.\n\nA national AI governance framework should set consistent rules for accountability, data integrity, and human oversight. High-risk AI—used in healthcare, finance, or employment—must be subject to mandatory risk assessments and independent audits before deployment. Canada can draw on global models like the EU AI Act but tailor them to reflect local priorities such a",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "57645",
+      "text": "Canada needs a clear, interoperable framework for AI governance that ensures trust without stifling innovation. The foundation should balance accountability, transparency, and flexibility, enabling responsible deployment while supporting companies that build and operationalize AI.\nKey elements should include:\n•\tNational AI Assurance Framework: Establish a standardized process for validating AI systems—covering data provenance, model explainability, bias mitigation, and performance monitoring. Certification programs could provide a “trust mark” for compliant AI products, helping businesses demo",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "60110",
+      "text": "Canada must implement comprehensive frameworks that ensure AI products are secure, ethical, and inclusive. These should include:\n•\tStandards for the protection of personal information and cybersecurity.\n•\tRequirements for environmental, health, and community impact assessments.\n•\tEquity and accessibility guidelines to prevent systemic bias and exclusion.\n•\tBackup protocols and reliability standards to ensure continuity of service.\n•\tMandatory use of Algorithmic Impact Assessment tools for high-risk applications.\nThese frameworks must be adaptable to evolving technologies and grounded in human ",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    }
+  ],
+  "research-funding-programs": [
+    {
+      "id": "31363",
+      "text": "Don't be fooled by the allure of LLMs. ChatGPT is not AI. Invest in research that has concrete benefits and algorithms that are actually used by scientists, in e.g. protein folding and cancer research.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "31364",
+      "text": "Don't be fooled by the allure of LLMs. ChatGPT is not AI. Invest in research that has concrete benefits and algorithms that are actually used by scientists, in e.g. protein folding and cancer research.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "31365",
+      "text": "Don't be fooled by the allure of LLMs. ChatGPT is not AI. Invest in research that has concrete benefits and algorithms that are actually used by scientists, in e.g. protein folding and cancer research.",
+      "sentiment": "concerned",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    }
+  ],
+  "resource-and-employment-concerns": [
+    {
+      "id": "27493",
+      "text": "These questions are all asking the same thing. AI is destructive to peoples employment, destructive to the environment, and destructive to human creativity in general. Stop trying to shove this down Canadians throats. Didn't the recent Harvard or MIT study find that a vast majority of businesses who \"pivoted to AI\" failed miserably and lost money? Why are you trying to do this, except on the scale of the whole country?",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "16729",
+      "text": "XXX AI. AI is ravaging the environment whilst making everyone redundant, particularly entry level jobs in many industries, which will create a brain drain in an aging skilled worker population. I will vote for whichever party platforms against AI in the next election.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "16730",
+      "text": "XXX AI. AI is ravaging the environment whilst making everyone redundant, particularly entry level jobs in many industries, which will create a brain drain in an aging skilled worker population. I will vote for whichever party platforms against AI in the next election.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "16731",
+      "text": "XXX AI. AI is ravaging the environment whilst making everyone redundant, particularly entry level jobs in many industries, which will create a brain drain in an aging skilled worker population. I will vote for whichever party platforms against AI in the next election.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "16732",
+      "text": "XXX AI. AI is ravaging the environment whilst making everyone redundant, particularly entry level jobs in many industries, which will create a brain drain in an aging skilled worker population. I will vote for whichever party platforms against AI in the next election.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    }
+  ],
+  "responsible-ai-development-and-integration": [
+    {
+      "id": "44448",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44449",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44450",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44510",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "44511",
+      "text": "Canada can lead by example through enacting policies supported by technologies that strengthen and protect health, safety, and infrastructure for all. As it stands, AI is far too unstable and unreliable to be responsibly integrated across all industries without significant detriments and potentially far-reaching consequences. It would be a gross misappropriation of funding to blindly invest into and apply technologies that misrepresent information, necessitate rampant personal data theft, and pose a substantial ecological threat to all Canadians. Much must be done about the rampant data breach",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "sovereign-compute-capacity": [
+    {
+      "id": "40182",
+      "text": "Canada's current AI compute capacity is approximately 41 petaFLOPS, representing about 1% of the United States 3,700 petaFLOPS. Given the rapid growth in AI compute demand, with projections indicating a doubling of AI supercomputer performance every nine months, Canada must significantly enhance its infrastructure to maintain competitiveness and ensure national security.\n\nTo achieve this, a phased approach is essential:\n2030: Establish foundational infrastructure, targeting a capacity of 300 petaFLOPS, integrating advanced technologies and fostering innovation ecosystems.\n\n2040: Reach 500 peta",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 9.0
+    },
+    {
+      "id": "47106",
+      "text": "Canada’s long-term prosperity and national security will depend on sufficient sovereign AI compute capacity—infrastructure that ensures data control, innovation independence, and equitable access across sectors. Demand for compute is projected to grow tenfold by 2030, driven by both public and private uses.\n\n1. Economic and Security Imperatives.\nAI compute is now as strategic as energy or telecommunications. To remain competitive, Canada should target 5–10% of global Tier-1 compute capacity per capita—enough to sustain domestic research, innovation, and critical systems resilience. This ensure",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "47417",
+      "text": "Canada needs enough sovereign compute to support research, innovation, and security while avoiding dependence on foreign infrastructure. Over the next 3 years, capacity should grow in three tiers:\n\n1. Research and Innovation (Tier R).\nProvide broad access for universities and SMEs—target 0.3–0.5 exaFLOP/s of mixed-precision compute by year 2, scaling to ~1 exaFLOP/s by year 3 (about 25,000–35,000 accelerators). Prioritize renewable energy, fair-share scheduling, and open access for public-interest projects.\n\n2. Security and Critical Infrastructure (Tier S).\nMaintain a smaller 0.1–0.2 exaFLOP/s",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "AB",
+      "score": 9.0
+    },
+    {
+      "id": "47942",
+      "text": "100%. We need 100% sovreign capacity. We need our datacenters to be operated, and leased to Canadian firms and organizations. We simply cannot rely on the ethical usage of cloud AI computing that takes place outside of our borders. This does require our own AI data-centers, but specifically, it requires incentives for those data-centers to be utilized by Canadian entities, not foreign.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "46491",
+      "text": "By 2030, Canada runs its own AI brain\nSecure: Defense AI untouchable by foreign law\nScalable: 1M sovereign GPUs fueling $350B growth\nSovereign: Data, code, and compute 100% Canadian",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Individual",
+      "province": "MB",
+      "score": 3.0
+    }
+  ],
+  "sovereignty-and-security-implications": [
+    {
+      "id": "24212",
+      "text": "This survey is being lambasted on social media for its inherent biases, overuse of jargon, and inability to define what AI is in the context of this survey. The questions assume that the public wants AI, and gives nowhere to voice an opinion to the contrary without using the space given to another question.\n\nThe language used is inaccessible, and does not follow Canada.ca guidelines for web style or plain language, putting it in contradiction of the Directive on the Management of Communications and Federal Identity. This directive explicitly states that it covers public opinion research: https",
+      "sentiment": "opposed",
+      "salience": "secondary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "24213",
+      "text": "This survey is being lambasted on social media for its inherent biases, overuse of jargon, and inability to define what AI is in the context of this survey. The questions assume that the public wants AI, and gives nowhere to voice an opinion to the contrary without using the space given to another question.\n\nThe language used is inaccessible, and does not follow Canada.ca guidelines for web style or plain language, putting it in contradiction of the Directive on the Management of Communications and Federal Identity. This directive explicitly states that it covers public opinion research: https",
+      "sentiment": "opposed",
+      "salience": "secondary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "24214",
+      "text": "This survey is being lambasted on social media for its inherent biases, overuse of jargon, and inability to define what AI is in the context of this survey. The questions assume that the public wants AI, and gives nowhere to voice an opinion to the contrary without using the space given to another question.\n\nThe language used is inaccessible, and does not follow Canada.ca guidelines for web style or plain language, putting it in contradiction of the Directive on the Management of Communications and Federal Identity. This directive explicitly states that it covers public opinion research: https",
+      "sentiment": "opposed",
+      "salience": "secondary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "NO",
+      "score": 6.0
+    },
+    {
+      "id": "40869",
+      "text": "AI servers are bad for the environment and drain a lot of water resources. Before devoting time to increasing AI in Canada there needs to be measures in place to prevent the drain of natural resources as we are already facing climate crisis & longer fire seasons every year.",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Organization",
+      "province": "BC",
+      "score": 6.0
+    },
+    {
+      "id": "7327",
+      "text": "Restreindre le transfert des centres d’appels dans des pays étrangers ( Bell Vidéotron ) étant donné qu’ils ont nos informations",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "assertion",
+      "respondentType": "Organization",
+      "province": "QC",
+      "score": 3.0
+    }
+  ],
+  "worker-centered-training-and-consent": [
+    {
+      "id": "4258",
+      "text": "Canada should invest in training that includes digital, creative, and ethical practice skills, with a\nfocus on how AI works. AI should be rolled out with Consent, Compensation, and Control at the\ncore of its intent. We need funding for union-led training hubs, fast re-skilling programs, and co-ops\nthat connect technology, arts, and trades, so that everyone can adapt in a fair and respectful way.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4477",
+      "text": "Canada should invest in training that includes digital, creative, and ethical practice skills, with a \nfocus on how AI works. AI should be rolled out with Consent, Compensation, and Control at the core of its intent. We need funding for union-led training hubs, fast re-skilling programs, and co-ops \nthat connect technology, arts, and trades, so that everyone can adapt in a fair and respectful way.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4489",
+      "text": "Canada should invest in training that includes digital, creative, and ethical practice skills, with a\nfocus on how AI works. AI should be rolled out with Consent, Compensation, and Control at the \ncore of its intent. We need funding for union-led training hubs, fast re-skilling programs, and co-ops\nthat connect technology, arts, and trades, so that everyone can adapt in a fair and respectful way.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4511",
+      "text": "Canada should invest in training that includes digital, creative, and ethical practice skills, with a\nfocus on how AI works. AI should be rolled out with Consent, Compensation, and Control at the\ncore of its intent. We need funding for union-led training hubs, fast re-skilling programs, and co-ops\nthat connect technology, arts, and trades, so that everyone can adapt in a fair and respectful way.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4563",
+      "text": "Canada should invest in training that includes digital, creative, and ethical practice skills, with a\nfocus on how AI works. AI should be rolled out with Consent, Compensation, and Control at the\ncore of its intent. We need funding for union-led training hubs, fast re-skilling programs, and co-ops\nthat connect technology, arts, and trades, so that everyone can adapt in a fair and respectful way",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    }
+  ],
+  "worker-participation-in-ai-governance": [
+    {
+      "id": "39047",
+      "text": "I work in the animation industry and myself and everyone I know is out of work. Most of us have been out of work for 2+ years. AI and greedy tech corporations are strangling Canadian media. People are out of work, when we have work the teams are small and for below living wages, and more than a few people I know have had to give up their current living situations for worse conditions. Canada please think of your human citizens and be responsible with AI. Implement laws to protect human workers and slow companies being allowed to freely replace human workers with AI. The use of Generative AI is",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 9.0
+    },
+    {
+      "id": "39048",
+      "text": "I work in the animation industry and myself and everyone I know is out of work. Most of us have been out of work for 2+ years. AI and greedy tech corporations are strangling Canadian media. People are out of work, when we have work the teams are small and for below living wages, and more than a few people I know have had to give up their current living situations for worse conditions. Canada please think of your human citizens and be responsible with AI. Implement laws to protect human workers and slow companies being allowed to freely replace human workers with AI. The use of Generative AI is",
+      "sentiment": "opposed",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "BC",
+      "score": 9.0
+    },
+    {
+      "id": "50303",
+      "text": "Public trust comes from protecting people first. Consent, Compensation, and Control should be \nrequired in all AI. Unions and creative workers should be partners in planning how A.I. is applied to \nour industry. We need strong rules, clear information, and public education to make sure AI is safe, \nfair, and accountable, not harmful or exploitative. Trust grows when workers help shape the \nstandards. In 2021/2022, the greater film and TV industry created nearly 350,000 jobs in Canada, and added over $23 billion dollars to Canada's GDP, and nearly $16 billion in labour income (see the Media Pro",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "evidence-based",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 9.0
+    },
+    {
+      "id": "4140",
+      "text": "Workers and unions must be part of how AI is built and governed. Canada can create public tools, \nlike clear AI-risk reports, and community panels to review impacts. The government sets rules, \nindustry follows those rules, and unions help protect the performer voices.  \nTrust grows when performers have Consent, Compensation, and Control, and when workers help \nguide AI’s future.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
+    },
+    {
+      "id": "4231",
+      "text": "Public trust comes from protecting people first. Consent, Compensation, and Control should be\nrequired in all AI. Unions and creative workers should be partners in planning how A.I. is applied to\nour industry. We need strong rules, clear information, and public education to make sure AI is safe,\nfair, and accountable, not harmful or exploitative. Trust grows when workers help shape the\nstandards.",
+      "sentiment": "supportive",
+      "salience": "primary",
+      "depth": "reasoned",
+      "respondentType": "Individual",
+      "province": "ON",
+      "score": 6.0
     }
   ]
 }

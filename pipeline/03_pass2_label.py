@@ -15,12 +15,13 @@ import sys
 import time
 from pathlib import Path
 
-import anthropic
+import os
+import groq
 
 sys.path.insert(0, str(Path(__file__).parent))
 from config import DB_PATH, MODEL_EXPERT, MODEL_PUBLIC, SALIENCE_WEIGHTS, DEPTH_WEIGHTS
 
-client = anthropic.Anthropic()
+client = groq.Groq(api_key=os.environ["GROQ_API_KEY"])
 
 BATCH_SIZE = 60
 
@@ -60,12 +61,12 @@ def parse_labels(raw: str) -> list[dict]:
 def label_batch(chunks: list[dict], model: str) -> list[dict]:
     prompt = build_prompt(chunks[0]["pillar_id"], chunks)
     try:
-        msg = client.messages.create(
+        msg = client.chat.completions.create(
             model=model,
             max_tokens=4096,
             messages=[{"role": "user", "content": prompt}],
         )
-        return parse_labels(msg.content[0].text)
+        return parse_labels(msg.choices[0].message.content)
     except Exception as e:
         print(f"    [ERROR] label_batch: {e}")
         return []
@@ -108,9 +109,22 @@ def run_pillar(con: sqlite3.Connection, pillar_id: str, source: str | None = Non
                 con.execute("UPDATE chunks SET labeled=-1, label_error='missing' WHERE id=?", (chunk["id"],))
                 continue
 
+            VALID_SENTIMENT = {"supportive", "opposed", "concerned", "neutral"}
+            VALID_SALIENCE  = {"primary", "secondary", "passing"}
+            VALID_DEPTH     = {"evidence-based", "reasoned", "assertion"}
+
             sent = label.get("sentiment", "neutral")
             sal  = label.get("salience",  "passing")
             dep  = label.get("depth",     "assertion")
+
+            # Normalize common LLM variants before constraint check
+            sent_map = {"positive": "supportive", "negative": "opposed",
+                        "mixed": "concerned", "critical": "opposed"}
+            sent = sent_map.get(sent, sent)
+
+            if sent not in VALID_SENTIMENT: sent = "neutral"
+            if sal  not in VALID_SALIENCE:  sal  = "passing"
+            if dep  not in VALID_DEPTH:     dep  = "assertion"
             score = SALIENCE_WEIGHTS.get(sal, 1) * DEPTH_WEIGHTS.get(dep, 1)
 
             con.execute(

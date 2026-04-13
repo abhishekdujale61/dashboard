@@ -15,13 +15,14 @@ import sys
 import time
 from pathlib import Path
 
-import anthropic
+import os
+import groq
 import docx
 
 sys.path.insert(0, str(Path(__file__).parent))
 from config import DB_PATH, MODEL_EXPERT, REPORTS_DIR, REPORT_MAP
 
-client = anthropic.Anthropic()
+client = groq.Groq(api_key=os.environ["GROQ_API_KEY"])
 
 ATOMIZE_PROMPT = """You are processing a section of a Canadian government AI Task Force expert report.
 Break the following text into atomic idea chunks — each chunk should contain exactly ONE distinct idea, claim, recommendation, or finding.
@@ -79,12 +80,12 @@ def atomize_section(header: str, body: str) -> list[dict]:
         return [{"header": header or "Note", "body": body}]
 
     try:
-        msg = client.messages.create(
+        msg = client.chat.completions.create(
             model=MODEL_EXPERT,
             max_tokens=2048,
             messages=[{"role": "user", "content": ATOMIZE_PROMPT + combined}],
         )
-        raw = msg.content[0].text.strip()
+        raw = msg.choices[0].message.content.strip()
         # Strip markdown fences if present
         raw = re.sub(r"^```(?:json)?\s*", "", raw)
         raw = re.sub(r"\s*```$", "", raw)

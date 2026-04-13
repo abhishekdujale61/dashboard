@@ -14,12 +14,14 @@ import sqlite3
 import sys
 from pathlib import Path
 
-import anthropic
+import os
+import time
+import groq
 
 sys.path.insert(0, str(Path(__file__).parent))
 from config import DB_PATH, MODEL_CANON
 
-client = anthropic.Anthropic()
+client = groq.Groq(api_key=os.environ["GROQ_API_KEY"])
 
 CANON_PROMPT = """You are canonicalizing subtopic labels from Canada's AI strategy consultation for the pillar: "{pillar}".
 
@@ -61,19 +63,29 @@ def canonicalize_pillar(con: sqlite3.Connection, pillar_id: str) -> int:
         print(f"  No labeled chunks for {pillar_id}. Run Pass 2 first.")
         return 0
 
-    labels_json = json.dumps([{"label": r[0], "count": r[1]} for r in rows], ensure_ascii=False, indent=2)
+    # Skip if already canonicalized
+    existing = con.execute(
+        "SELECT COUNT(*) FROM canonical_topics WHERE pillar_id=?", (pillar_id,)
+    ).fetchone()[0]
+    if existing > 0:
+        print(f"  Already canonicalized ({existing} topics) — skipping.")
+        return existing
+
+    # Cap to top 50 by frequency — Groq free tier limit is 6k tokens/min
+    top_rows = rows[:50]
+    labels_json = json.dumps([{"label": r[0], "count": r[1]} for r in top_rows], ensure_ascii=False, indent=2)
     pillar_label = pillar_id.replace("-", " ").title()
     prompt = CANON_PROMPT.format(pillar=pillar_label, labels_json=labels_json)
 
-    print(f"  {len(rows)} distinct raw labels → asking LLM to canonicalize …")
+    print(f"  {len(rows)} distinct raw labels (using top {len(top_rows)}) → asking LLM to canonicalize …")
 
     try:
-        msg = client.messages.create(
+        msg = client.chat.completions.create(
             model=MODEL_CANON,
             max_tokens=4096,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw = msg.content[0].text.strip()
+        raw = msg.choices[0].message.content.strip()
         raw = re.sub(r"^```(?:json)?\s*", "", raw)
         raw = re.sub(r"\s*```$", "", raw)
         result = json.loads(raw)
@@ -81,8 +93,14 @@ def canonicalize_pillar(con: sqlite3.Connection, pillar_id: str) -> int:
         print(f"  [ERROR] canonicalize: {e}")
         return 0
 
-    canonical_topics: list[str] = result.get("canonical_topics", [])
-    mapping: dict[str, str] = result.get("mapping", {})
+    canonical_topics: list[str] = [t for t in result.get("canonical_topics", []) if t]
+    mapping: dict[str, str] = {k: v for k, v in result.get("mapping", {}).items() if k and v}
+
+    # Fallback: if LLM returned nothing usable, use top raw label
+    if not canonical_topics:
+        canonical_topics = [rows[0][0]]
+    if not mapping:
+        mapping = {r[0]: canonical_topics[0] for r in top_rows}
 
     # Store raw→canonical mapping
     for raw_label, canonical_label in mapping.items():
@@ -209,7 +227,9 @@ def main() -> None:
     if args.pillar:
         pillar_ids = [p for p in pillar_ids if p == args.pillar]
 
-    for pid in pillar_ids:
+    for i, pid in enumerate(pillar_ids):
+        if i > 0:
+            time.sleep(15)  # stay under Groq free tier 6k TPM limit
         print(f"\n→ Canonicalizing: {pid}")
         n = canonicalize_pillar(con, pid)
         if n > 0:
