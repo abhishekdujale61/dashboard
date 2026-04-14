@@ -165,9 +165,6 @@ flowchart LR
     delta -->|> 1.5| diverges["✗ Diverges (red)"]
 ```
 
-> **Topic level — response counts only, no divergence labels.**
-> At the topic level, the public were explicitly directed to respond to specific questions, so a score difference between public and expert does not indicate genuine divergence. Topics show only the number of public responses vs expert references as a neutral comparison.
-
 ### Topic-Level Display Design
 
 ```mermaid
